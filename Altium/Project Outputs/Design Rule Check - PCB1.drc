@@ -1,7 +1,16 @@
 Protel Design System Design Rule Check
 PCB File : C:\Users\Dante Sivo\Documents\GitHub\Fletcher-v2.0-\Altium\PCB1.PcbDoc
 Date     : 7/10/2022
-Time     : 12:33:21 AM
+Time     : 10:43:09 PM
+
+WARNING: Design contains shelved or modified (but not repoured) polygons. The result of DRC is not correct. Recommended to restore/repour all polygons and proceed with DRC again
+   Polygon named: GND_Top_Layer In net GND On Top Layer
+   Polygon named: 3V3_USB_PRIMARY In net 3v3 On Top Layer
+   Polygon named: VBUS_IN_USB_PRIMARY In net VBUS_IN On Top Layer
+   Polygon named: GND_Accelerometer In net GND On Top Layer
+   Polygon named: Bottom_GND In net GND On Bottom Layer
+   Polygon named: GND_Top_Layer In net GND On Top Layer
+   Polygon named: Bottom_GND In net GND On Bottom Layer
 
 Processing Rule : Clearance Constraint (Gap=4mil) (All),(All)
    Violation between Clearance Constraint: (Collision < 4mil) Between Pad J2-S3(4100.639mil,2511mil) on Multi-Layer And Region (0 hole(s)) Bottom Layer 
@@ -18,11 +27,57 @@ Processing Rule : Short-Circuit Constraint (Allowed=No) (All),(All)
 Rule Violations :4
 
 Processing Rule : Un-Routed Net Constraint ( (All) )
+   Violation between Un-Routed Net Constraint: Net GND Between Pad C3-1(2775mil,1030.315mil) on Top Layer And Pad C2-1(2775mil,1239.685mil) on Top Layer 
+   Violation between Un-Routed Net Constraint: Net GPS_ANT1 Between Pad F2-2(3377.5mil,-410mil) on Top Layer And Pad J3-3(3454.961mil,-410mil) on Top Layer 
+   Violation between Un-Routed Net Constraint: Net GPS_ANT1 Between Pad U6-11(3307.284mil,-305.611mil) on Top Layer And Pad F2-2(3377.5mil,-410mil) on Top Layer 
+   Violation between Un-Routed Net Constraint: Net VSPI_WP Between Via (3946.403mil,808.441mil) from Top Layer to Bottom Layer And Pad J?-10(4620.999mil,-347mil) on Multi-Layer 
+   Violation between Un-Routed Net Constraint: Net GND Between Pad J?-11(4520.999mil,-247mil) on Multi-Layer And Pad J?-12(4620.999mil,-247mil) on Multi-Layer 
+   Violation between Un-Routed Net Constraint: Net GND Between Pad J?-11(4520.999mil,-247mil) on Multi-Layer And Pad J?-15(4520.999mil,-47.001mil) on Multi-Layer 
+   Violation between Un-Routed Net Constraint: Net HSPI_WP Between Via (3415mil,490mil) from Top Layer to Bottom Layer And Pad J?-13(4520.999mil,-147mil) on Multi-Layer 
+   Violation between Un-Routed Net Constraint: Net VSPI_MISO Between Track (3944.706mil,863.101mil)(3946.841mil,865.236mil) on Top Layer And Pad J?-14(4620.999mil,-147mil) on Multi-Layer 
+   Violation between Un-Routed Net Constraint: Net GND Between Pad J?-15(4520.999mil,-47.001mil) on Multi-Layer And Pad J?-16(4620.999mil,-47.001mil) on Multi-Layer 
+   Violation between Un-Routed Net Constraint: Net GND Between Pad J?-15(4520.999mil,-47.001mil) on Multi-Layer And Pad J?-19(4520.999mil,153mil) on Multi-Layer 
+   Violation between Un-Routed Net Constraint: Net SDA Between Via (3724mil,395mil) from Top Layer to Bottom Layer And Pad J?-17(4520.999mil,52.999mil) on Multi-Layer 
+   Violation between Un-Routed Net Constraint: Net SCL Between Via (3634mil,315mil) from Top Layer to Bottom Layer And Pad J?-18(4620.999mil,52.999mil) on Multi-Layer 
+   Violation between Un-Routed Net Constraint: Net GND Between Pad J?-19(4520.999mil,153mil) on Multi-Layer And Pad J?-20(4620.999mil,153mil) on Multi-Layer 
+   Violation between Un-Routed Net Constraint: Net GND Between Pad J?-19(4520.999mil,153mil) on Multi-Layer And Pad J?-23(4520.999mil,353mil) on Multi-Layer 
+   Violation between Un-Routed Net Constraint: Net IO26 Between Pad U1-11(2855.354mil,750.086mil) on Top Layer And Pad J?-21(4520.999mil,253mil) on Multi-Layer 
+   Violation between Un-Routed Net Constraint: Net HSPI_MOSI Between Via (3015mil,490mil) from Top Layer to Bottom Layer And Pad J?-22(4620.999mil,253mil) on Multi-Layer 
+   Violation between Un-Routed Net Constraint: Net GND Between Pad J?-23(4520.999mil,353mil) on Multi-Layer And Pad J?-24(4620.999mil,353mil) on Multi-Layer 
+   Violation between Un-Routed Net Constraint: Net GND Between Pad J?-23(4520.999mil,353mil) on Multi-Layer And Pad J?-27(4520.999mil,553mil) on Multi-Layer 
+   Violation between Un-Routed Net Constraint: Net HSPI_CLK Between Pad R20-2(3015mil,257.105mil) on Top Layer And Pad J?-25(4520.999mil,453mil) on Multi-Layer 
+   Violation between Un-Routed Net Constraint: Net IO27 Between Pad U1-12(2855.354mil,700.086mil) on Top Layer And Pad J?-26(4620.999mil,453mil) on Multi-Layer 
+   Violation between Un-Routed Net Constraint: Net GND Between Pad J?-27(4520.999mil,553mil) on Multi-Layer And Pad J?-28(4620.999mil,553mil) on Multi-Layer 
+   Violation between Un-Routed Net Constraint: Net GND Between Pad J?-28(4620.999mil,553mil) on Multi-Layer And Pad J?-32(4620.999mil,753mil) on Multi-Layer 
+   Violation between Un-Routed Net Constraint: Net IO25 Between Pad U1-10(2855.354mil,800.086mil) on Top Layer And Pad J?-29(4520.999mil,653mil) on Multi-Layer 
+   Violation between Un-Routed Net Constraint: Net HSPI_MISO Between Track (2855.354mil,600.086mil)(2872.283mil,600.086mil) on Top Layer And Pad J?-30(4620.999mil,653mil) on Multi-Layer 
+   Violation between Un-Routed Net Constraint: Net GND Between Pad J?-31(4520.999mil,753mil) on Multi-Layer And Pad J?-32(4620.999mil,753mil) on Multi-Layer 
+   Violation between Un-Routed Net Constraint: Net GND Between Pad J?-32(4620.999mil,753mil) on Multi-Layer And Pad J?-36(4620.999mil,953mil) on Multi-Layer 
+   Violation between Un-Routed Net Constraint: Net IO33 Between Pad U1-9(2855.354mil,850.086mil) on Top Layer And Pad J?-33(4520.999mil,853mil) on Multi-Layer 
+   Violation between Un-Routed Net Constraint: Net IO32 Between Pad U1-8(2855.354mil,900.086mil) on Top Layer And Pad J?-34(4620.999mil,853mil) on Multi-Layer 
+   Violation between Un-Routed Net Constraint: Net GND Between Pad J?-35(4520.999mil,953mil) on Multi-Layer And Pad J?-36(4620.999mil,953mil) on Multi-Layer 
+   Violation between Un-Routed Net Constraint: Net GND Between Pad U3-4(4046.841mil,865.236mil) on Top Layer And Pad J?-35(4520.999mil,953mil) on Multi-Layer 
+   Violation between Un-Routed Net Constraint: Net GND Between Pad J?-36(4620.999mil,953mil) on Multi-Layer And Pad J?-40(4620.999mil,1152.999mil) on Multi-Layer 
+   Violation between Un-Routed Net Constraint: Net IO35 Between Pad U1-7(2855.354mil,950.086mil) on Top Layer And Pad J?-37(4520.999mil,1052.999mil) on Multi-Layer 
+   Violation between Un-Routed Net Constraint: Net IO34 Between Pad U1-6(2855.354mil,1000.086mil) on Top Layer And Pad J?-38(4620.999mil,1052.999mil) on Multi-Layer 
+   Violation between Un-Routed Net Constraint: Net GND Between Pad J?-39(4520.999mil,1152.999mil) on Multi-Layer And Pad J?-40(4620.999mil,1152.999mil) on Multi-Layer 
    Violation between Un-Routed Net Constraint: Net GND Between Pad U1-39(3150.629mil,882.566mil) on Top Layer And Pad U1-39(3150.629mil,937.684mil) on Top Layer 
-   Violation between Un-Routed Net Constraint: Net GPS_ANT1 Between Track (3310mil,-435.572mil)(3310.298mil,-435.274mil) on Top Layer And Track (3310.298mil,-381.81mil)(3311.496mil,-380.611mil) on Top Layer 
-Rule Violations :2
+   Violation between Un-Routed Net Constraint: Polygon Shelved  (3V3_USB_PRIMARY) on Top Layer Dead Copper - Net Not Assigned.
+   Violation between Un-Routed Net Constraint: Polygon Shelved  (Bottom_GND) on Bottom Layer Dead Copper - Net Not Assigned.
+   Violation between Un-Routed Net Constraint: Polygon Shelved  (GND_Accelerometer) on Top Layer Dead Copper - Net Not Assigned.
+   Violation between Un-Routed Net Constraint: Polygon Shelved  (GND_Top_Layer) on Top Layer Dead Copper - Net Not Assigned.
+   Violation between Un-Routed Net Constraint: Polygon Shelved  (VBUS_IN_USB_PRIMARY) on Top Layer Dead Copper - Net Not Assigned.
+Rule Violations :40
 
 Processing Rule : Modified Polygon (Allow modified: No), (Allow shelved: No)
+   Violation between Modified Polygon: Polygon Shelved  (3V3_USB_PRIMARY) on Top Layer 
+   Violation between Modified Polygon: Polygon Shelved  (Bottom_GND) on Bottom Layer 
+   Violation between Modified Polygon: Polygon Shelved  (GND_Accelerometer) on Top Layer 
+   Violation between Modified Polygon: Polygon Shelved  (GND_Top_Layer) on Top Layer 
+   Violation between Modified Polygon: Polygon Shelved  (VBUS_IN_USB_PRIMARY) on Top Layer 
+Rule Violations :5
+
+Processing Rule : Width Constraint (Min=14.137mil) (Max=14.137mil) (Preferred=14.137mil) (InNetClass('RF'))
 Rule Violations :0
 
 Processing Rule : Width Constraint (Min=4mil) (Max=71497.938mil) (Preferred=4mil) (All)
@@ -73,12 +128,26 @@ Processing Rule : Minimum Solder Mask Sliver (Gap=0mil) (All),(All)
 Rule Violations :0
 
 Processing Rule : Silk To Solder Mask (Clearance=4mil) (IsPad),(All)
-   Violation between Silk To Solder Mask Clearance Constraint: (Collision < 4mil) Between Arc (2796.299mil,1249.692mil) on Top Overlay And Pad C2-2(2775mil,1244.291mil) on Top Layer [Top Overlay] to [Top Solder] clearance [0mil]
+   Violation between Silk To Solder Mask Clearance Constraint: (1.22mil < 4mil) Between Arc (2796.299mil,1249.692mil) on Top Overlay And Pad C2-1(2775mil,1239.685mil) on Top Layer [Top Overlay] to [Top Solder] clearance [1.22mil]
+   Violation between Silk To Solder Mask Clearance Constraint: (Collision < 4mil) Between Pad C17-1(2385mil,1970mil) on Top Layer And Track (2310.197mil,2029.055mil)(2310.197mil,2147.165mil) on Top Overlay [Top Overlay] to [Top Solder] clearance [0mil]
+   Violation between Silk To Solder Mask Clearance Constraint: (Collision < 4mil) Between Pad C17-1(2385mil,1970mil) on Top Layer And Track (2459.803mil,2029.055mil)(2459.803mil,2147.165mil) on Top Overlay [Top Overlay] to [Top Solder] clearance [0mil]
+   Violation between Silk To Solder Mask Clearance Constraint: (Collision < 4mil) Between Pad C17-2(2385mil,2206.22mil) on Top Layer And Track (2310.197mil,2029.055mil)(2310.197mil,2147.165mil) on Top Overlay [Top Overlay] to [Top Solder] clearance [0mil]
+   Violation between Silk To Solder Mask Clearance Constraint: (Collision < 4mil) Between Pad C17-2(2385mil,2206.22mil) on Top Layer And Track (2459.803mil,2029.055mil)(2459.803mil,2147.165mil) on Top Overlay [Top Overlay] to [Top Solder] clearance [0mil]
+   Violation between Silk To Solder Mask Clearance Constraint: (Collision < 4mil) Between Pad F1-1(2990mil,2100mil) on Top Layer And Track (2922.264mil,2067.5mil)(2952.736mil,2067.5mil) on Top Overlay [Top Overlay] to [Top Solder] clearance [0mil]
+   Violation between Silk To Solder Mask Clearance Constraint: (Collision < 4mil) Between Pad F1-1(2990mil,2100mil) on Top Layer And Track (2922.264mil,2132.5mil)(2952.736mil,2132.5mil) on Top Overlay [Top Overlay] to [Top Solder] clearance [0mil]
+   Violation between Silk To Solder Mask Clearance Constraint: (Collision < 4mil) Between Pad F1-2(2885mil,2100mil) on Top Layer And Track (2922.264mil,2067.5mil)(2952.736mil,2067.5mil) on Top Overlay [Top Overlay] to [Top Solder] clearance [0mil]
+   Violation between Silk To Solder Mask Clearance Constraint: (Collision < 4mil) Between Pad F1-2(2885mil,2100mil) on Top Layer And Track (2922.264mil,2132.5mil)(2952.736mil,2132.5mil) on Top Overlay [Top Overlay] to [Top Solder] clearance [0mil]
+   Violation between Silk To Solder Mask Clearance Constraint: (Collision < 4mil) Between Pad F2-1(3272.5mil,-410mil) on Top Layer And Track (3309.764mil,-377.5mil)(3340.236mil,-377.5mil) on Top Overlay [Top Overlay] to [Top Solder] clearance [0mil]
+   Violation between Silk To Solder Mask Clearance Constraint: (Collision < 4mil) Between Pad F2-1(3272.5mil,-410mil) on Top Layer And Track (3309.764mil,-442.5mil)(3340.236mil,-442.5mil) on Top Overlay [Top Overlay] to [Top Solder] clearance [0mil]
+   Violation between Silk To Solder Mask Clearance Constraint: (Collision < 4mil) Between Pad F2-2(3377.5mil,-410mil) on Top Layer And Track (3309.764mil,-377.5mil)(3340.236mil,-377.5mil) on Top Overlay [Top Overlay] to [Top Solder] clearance [0mil]
+   Violation between Silk To Solder Mask Clearance Constraint: (Collision < 4mil) Between Pad F2-2(3377.5mil,-410mil) on Top Layer And Track (3309.764mil,-442.5mil)(3340.236mil,-442.5mil) on Top Overlay [Top Overlay] to [Top Solder] clearance [0mil]
    Violation between Silk To Solder Mask Clearance Constraint: (1.678mil < 4mil) Between Pad J4-6(2867.835mil,-850.611mil) on Multi-Layer And Track (2857.992mil,-811.241mil)(2857.992mil,-738.406mil) on Top Overlay [Top Overlay] to [Top Solder] clearance [1.678mil]
    Violation between Silk To Solder Mask Clearance Constraint: (1.678mil < 4mil) Between Pad J4-6(3143.425mil,-850.611mil) on Multi-Layer And Track (3153.268mil,-811.241mil)(3153.268mil,-738.406mil) on Top Overlay [Top Overlay] to [Top Solder] clearance [1.678mil]
-   Violation between Silk To Solder Mask Clearance Constraint: (Collision < 4mil) Between Pad R22-1(3205mil,-408.328mil) on Top Layer And Text "C13" (3155.999mil,-401.612mil) on Top Overlay [Top Overlay] to [Top Solder] clearance [0mil]
-   Violation between Silk To Solder Mask Clearance Constraint: (Collision < 4mil) Between Pad R22-2(3205mil,-372.895mil) on Top Layer And Text "C13" (3155.999mil,-401.612mil) on Top Overlay [Top Overlay] to [Top Solder] clearance [0mil]
-Rule Violations :5
+   Violation between Silk To Solder Mask Clearance Constraint: (Collision < 4mil) Between Pad R5-1(3736.266mil,1907.742mil) on Top Layer And Text "C18" (3777.256mil,1914.399mil) on Top Overlay [Top Overlay] to [Top Solder] clearance [0mil]
+   Violation between Silk To Solder Mask Clearance Constraint: (Collision < 4mil) Between Pad R5-2(3771.699mil,1907.742mil) on Top Layer And Text "C18" (3777.256mil,1914.399mil) on Top Overlay [Top Overlay] to [Top Solder] clearance [0mil]
+   Violation between Silk To Solder Mask Clearance Constraint: (Collision < 4mil) Between Pad U2-7(3850.836mil,1947.087mil) on Top Layer And Text "C4" (3856.204mil,1960.068mil) on Top Overlay [Top Overlay] to [Top Solder] clearance [0mil]
+   Violation between Silk To Solder Mask Clearance Constraint: (3.278mil < 4mil) Between Pad U2-8(3850.836mil,1927.402mil) on Top Layer And Text "C4" (3856.204mil,1960.068mil) on Top Overlay [Top Overlay] to [Top Solder] clearance [3.278mil]
+Rule Violations :19
 
 Processing Rule : Silk to Silk (Clearance=0mil) (All),(All)
 Rule Violations :0
@@ -87,16 +156,66 @@ Processing Rule : Net Antennae (Tolerance=0mil) (All)
 Rule Violations :0
 
 Processing Rule : Board Clearance Constraint (Gap=0mil) (All)
+   Violation between Board Outline Clearance(Outline Edge): (Collision < 7.874mil) Between Arc (4423.519mil,-747.945mil) on Top Overlay And Board Edge 
    Violation between Board Outline Clearance(Cutout Edge): (7.197mil < 7.874mil) Between Board Cutout (Multi-Layer)Region (0 hole(s)) Multi-Layer And Pad U1-1(2855.354mil,1250.086mil) on Top Layer 
    Violation between Board Outline Clearance(Cutout Edge): (7.197mil < 7.874mil) Between Board Cutout (Multi-Layer)Region (0 hole(s)) Multi-Layer And Pad U1-38(3524.645mil,1250.086mil) on Top Layer 
-   Violation between Board Outline Clearance(Cutout Edge): (3.339mil < 7.874mil) Between Board Cutout (Multi-Layer)Region (0 hole(s)) Multi-Layer And Text "C2" (2758.339mil,1275.129mil) on Top Overlay 
+   Violation between Board Outline Clearance(Cutout Edge): (3.339mil < 7.874mil) Between Board Cutout (Multi-Layer)Region (0 hole(s)) Multi-Layer And Text "C2" (2758.339mil,1275.003mil) on Top Overlay 
    Violation between Board Outline Clearance(Cutout Edge): (Collision < 7.874mil) Between Board Cutout (Multi-Layer)Region (0 hole(s)) Multi-Layer And Track (2835.669mil,1289.062mil)(2835.669mil,1544.968mil) on Top Overlay 
    Violation between Board Outline Clearance(Cutout Edge): (Collision < 7.874mil) Between Board Cutout (Multi-Layer)Region (0 hole(s)) Multi-Layer And Track (2835.669mil,1544.968mil)(3544.33mil,1544.968mil) on Top Overlay 
    Violation between Board Outline Clearance(Cutout Edge): (Collision < 7.874mil) Between Board Cutout (Multi-Layer)Region (0 hole(s)) Multi-Layer And Track (3544.33mil,1289.062mil)(3544.33mil,1544.968mil) on Top Overlay 
+   Violation between Board Outline Clearance(Outline Edge): (Collision < 7.874mil) Between Board Edge And Pad J?-01(4520.999mil,-747mil) on Multi-Layer 
+   Violation between Board Outline Clearance(Outline Edge): (Collision < 7.874mil) Between Board Edge And Pad J?-02(4620.999mil,-747mil) on Multi-Layer 
+   Violation between Board Outline Clearance(Outline Edge): (Collision < 7.874mil) Between Board Edge And Pad J?-03(4520.999mil,-647mil) on Multi-Layer 
+   Violation between Board Outline Clearance(Outline Edge): (Collision < 7.874mil) Between Board Edge And Pad J?-04(4620.999mil,-647mil) on Multi-Layer 
+   Violation between Board Outline Clearance(Outline Edge): (Collision < 7.874mil) Between Board Edge And Pad J?-05(4520.999mil,-547mil) on Multi-Layer 
+   Violation between Board Outline Clearance(Outline Edge): (Collision < 7.874mil) Between Board Edge And Pad J?-06(4620.999mil,-547mil) on Multi-Layer 
+   Violation between Board Outline Clearance(Outline Edge): (Collision < 7.874mil) Between Board Edge And Pad J?-07(4520.999mil,-447mil) on Multi-Layer 
+   Violation between Board Outline Clearance(Outline Edge): (Collision < 7.874mil) Between Board Edge And Pad J?-08(4620.999mil,-447mil) on Multi-Layer 
+   Violation between Board Outline Clearance(Outline Edge): (Collision < 7.874mil) Between Board Edge And Pad J?-09(4520.999mil,-347mil) on Multi-Layer 
+   Violation between Board Outline Clearance(Outline Edge): (Collision < 7.874mil) Between Board Edge And Pad J?-10(4620.999mil,-347mil) on Multi-Layer 
+   Violation between Board Outline Clearance(Outline Edge): (Collision < 7.874mil) Between Board Edge And Pad J?-11(4520.999mil,-247mil) on Multi-Layer 
+   Violation between Board Outline Clearance(Outline Edge): (Collision < 7.874mil) Between Board Edge And Pad J?-12(4620.999mil,-247mil) on Multi-Layer 
+   Violation between Board Outline Clearance(Outline Edge): (Collision < 7.874mil) Between Board Edge And Pad J?-13(4520.999mil,-147mil) on Multi-Layer 
+   Violation between Board Outline Clearance(Outline Edge): (Collision < 7.874mil) Between Board Edge And Pad J?-14(4620.999mil,-147mil) on Multi-Layer 
+   Violation between Board Outline Clearance(Outline Edge): (Collision < 7.874mil) Between Board Edge And Pad J?-15(4520.999mil,-47.001mil) on Multi-Layer 
+   Violation between Board Outline Clearance(Outline Edge): (Collision < 7.874mil) Between Board Edge And Pad J?-16(4620.999mil,-47.001mil) on Multi-Layer 
+   Violation between Board Outline Clearance(Outline Edge): (Collision < 7.874mil) Between Board Edge And Pad J?-17(4520.999mil,52.999mil) on Multi-Layer 
+   Violation between Board Outline Clearance(Outline Edge): (Collision < 7.874mil) Between Board Edge And Pad J?-18(4620.999mil,52.999mil) on Multi-Layer 
+   Violation between Board Outline Clearance(Outline Edge): (Collision < 7.874mil) Between Board Edge And Pad J?-19(4520.999mil,153mil) on Multi-Layer 
+   Violation between Board Outline Clearance(Outline Edge): (Collision < 7.874mil) Between Board Edge And Pad J?-20(4620.999mil,153mil) on Multi-Layer 
+   Violation between Board Outline Clearance(Outline Edge): (Collision < 7.874mil) Between Board Edge And Pad J?-21(4520.999mil,253mil) on Multi-Layer 
+   Violation between Board Outline Clearance(Outline Edge): (Collision < 7.874mil) Between Board Edge And Pad J?-22(4620.999mil,253mil) on Multi-Layer 
+   Violation between Board Outline Clearance(Outline Edge): (Collision < 7.874mil) Between Board Edge And Pad J?-23(4520.999mil,353mil) on Multi-Layer 
+   Violation between Board Outline Clearance(Outline Edge): (Collision < 7.874mil) Between Board Edge And Pad J?-24(4620.999mil,353mil) on Multi-Layer 
+   Violation between Board Outline Clearance(Outline Edge): (Collision < 7.874mil) Between Board Edge And Pad J?-25(4520.999mil,453mil) on Multi-Layer 
+   Violation between Board Outline Clearance(Outline Edge): (Collision < 7.874mil) Between Board Edge And Pad J?-26(4620.999mil,453mil) on Multi-Layer 
+   Violation between Board Outline Clearance(Outline Edge): (Collision < 7.874mil) Between Board Edge And Pad J?-27(4520.999mil,553mil) on Multi-Layer 
+   Violation between Board Outline Clearance(Outline Edge): (Collision < 7.874mil) Between Board Edge And Pad J?-28(4620.999mil,553mil) on Multi-Layer 
+   Violation between Board Outline Clearance(Outline Edge): (Collision < 7.874mil) Between Board Edge And Pad J?-29(4520.999mil,653mil) on Multi-Layer 
+   Violation between Board Outline Clearance(Outline Edge): (Collision < 7.874mil) Between Board Edge And Pad J?-30(4620.999mil,653mil) on Multi-Layer 
+   Violation between Board Outline Clearance(Outline Edge): (Collision < 7.874mil) Between Board Edge And Pad J?-31(4520.999mil,753mil) on Multi-Layer 
+   Violation between Board Outline Clearance(Outline Edge): (Collision < 7.874mil) Between Board Edge And Pad J?-32(4620.999mil,753mil) on Multi-Layer 
+   Violation between Board Outline Clearance(Outline Edge): (Collision < 7.874mil) Between Board Edge And Pad J?-33(4520.999mil,853mil) on Multi-Layer 
+   Violation between Board Outline Clearance(Outline Edge): (Collision < 7.874mil) Between Board Edge And Pad J?-34(4620.999mil,853mil) on Multi-Layer 
+   Violation between Board Outline Clearance(Outline Edge): (Collision < 7.874mil) Between Board Edge And Pad J?-35(4520.999mil,953mil) on Multi-Layer 
+   Violation between Board Outline Clearance(Outline Edge): (Collision < 7.874mil) Between Board Edge And Pad J?-36(4620.999mil,953mil) on Multi-Layer 
+   Violation between Board Outline Clearance(Outline Edge): (Collision < 7.874mil) Between Board Edge And Pad J?-37(4520.999mil,1052.999mil) on Multi-Layer 
+   Violation between Board Outline Clearance(Outline Edge): (Collision < 7.874mil) Between Board Edge And Pad J?-38(4620.999mil,1052.999mil) on Multi-Layer 
+   Violation between Board Outline Clearance(Outline Edge): (Collision < 7.874mil) Between Board Edge And Pad J?-39(4520.999mil,1152.999mil) on Multi-Layer 
+   Violation between Board Outline Clearance(Outline Edge): (Collision < 7.874mil) Between Board Edge And Pad J?-40(4620.999mil,1152.999mil) on Multi-Layer 
+   Violation between Board Outline Clearance(Outline Edge): (Collision < 7.874mil) Between Board Edge And Text "J?" (4412.499mil,1343.499mil) on Top Overlay 
    Violation between Board Outline Clearance(Outline Edge): (6.205mil < 7.874mil) Between Board Edge And Track (2655mil,2198.795mil)(2655mil,2588.795mil) on Top Overlay 
    Violation between Board Outline Clearance(Outline Edge): (6.205mil < 7.874mil) Between Board Edge And Track (2655mil,2588.795mil)(3395mil,2588.795mil) on Top Overlay 
    Violation between Board Outline Clearance(Outline Edge): (6.205mil < 7.874mil) Between Board Edge And Track (3395mil,2208.795mil)(3395mil,2588.795mil) on Top Overlay 
-Rule Violations :9
+   Violation between Board Outline Clearance(Outline Edge): (Collision < 7.874mil) Between Board Edge And Track (4413.519mil,130.165mil)(4413.519mil,275.834mil) on Top Overlay 
+   Violation between Board Outline Clearance(Outline Edge): (Collision < 7.874mil) Between Board Edge And Track (4413.519mil,130.165mil)(4452.889mil,130.165mil) on Top Overlay 
+   Violation between Board Outline Clearance(Outline Edge): (Collision < 7.874mil) Between Board Edge And Track (4413.519mil,275.834mil)(4452.889mil,275.834mil) on Top Overlay 
+   Violation between Board Outline Clearance(Outline Edge): (Collision < 7.874mil) Between Board Edge And Track (4452.889mil,1302.999mil)(4689.11mil,1302.999mil) on Top Overlay 
+   Violation between Board Outline Clearance(Outline Edge): (Collision < 7.874mil) Between Board Edge And Track (4452.889mil,275.834mil)(4452.889mil,1302.999mil) on Top Overlay 
+   Violation between Board Outline Clearance(Outline Edge): (Collision < 7.874mil) Between Board Edge And Track (4452.889mil,-897mil)(4452.889mil,130.165mil) on Top Overlay 
+   Violation between Board Outline Clearance(Outline Edge): (Collision < 7.874mil) Between Board Edge And Track (4452.889mil,-897mil)(4689.11mil,-897mil) on Top Overlay 
+   Violation between Board Outline Clearance(Outline Edge): (Collision < 7.874mil) Between Board Edge And Track (4689.11mil,-897mil)(4689.11mil,1302.999mil) on Top Overlay 
+Rule Violations :59
 
 Processing Rule : Matched Lengths(Tolerance=1000mil) (InDifferentialPair ('USB_Primary'))
 Rule Violations :0
@@ -107,14 +226,73 @@ Rule Violations :0
 Processing Rule : Matched Lengths(Tolerance=1000mil) (InDifferentialPair ('USB_Primary'))
 Rule Violations :0
 
-Processing Rule : Component Clearance Constraint ( Horizontal Gap = 4mil, Vertical Gap = 4mil ) (All),(All) 
+Processing Rule : Room Designator_1 (Bounding Region = (0mil, 0mil, 2000mil, 1000mil) (InComponentClass('Designator'))
+   Violation between Room Definition: Between Component U1-ESP32-WROOM-32D (3189.999mil,1042.999mil) on Top Layer And Room Designator_1 (Bounding Region = (0mil, 0mil, 2000mil, 1000mil) (InComponentClass('Designator')) 
+   Violation between Room Definition: Between Room Designator_1 (Bounding Region = (0mil, 0mil, 2000mil, 1000mil) (InComponentClass('Designator')) And SMT Small Component C1-GRM188R61A226ME15D (2710mil,1235mil) on Top Layer 
+   Violation between Room Definition: Between Room Designator_1 (Bounding Region = (0mil, 0mil, 2000mil, 1000mil) (InComponentClass('Designator')) And SMT Small Component C2-GRM155R71E104KE14D (2775mil,1220mil) on Top Layer 
+   Violation between Room Definition: Between Room Designator_1 (Bounding Region = (0mil, 0mil, 2000mil, 1000mil) (InComponentClass('Designator')) And SMT Small Component C3-GRM155R71E104KE14D (2775mil,1050mil) on Top Layer 
+   Violation between Room Definition: Between Room Designator_1 (Bounding Region = (0mil, 0mil, 2000mil, 1000mil) (InComponentClass('Designator')) And SMT Small Component R3-Resistor 10K  +/-1 % 0402 63 mW (2775mil,1135mil) on Top Layer 
+Rule Violations :5
+
+Processing Rule : Room Designator (Bounding Region = (0mil, 0mil, 2000mil, 1000mil) (InComponentClass('Designator'))
+   Violation between Room Definition: Between Component U1-ESP32-WROOM-32D (3189.999mil,1042.999mil) on Top Layer And Room Designator (Bounding Region = (0mil, 0mil, 2000mil, 1000mil) (InComponentClass('Designator')) 
+   Violation between Room Definition: Between Room Designator (Bounding Region = (0mil, 0mil, 2000mil, 1000mil) (InComponentClass('Designator')) And SMT Small Component C1-GRM188R61A226ME15D (2710mil,1235mil) on Top Layer 
+   Violation between Room Definition: Between Room Designator (Bounding Region = (0mil, 0mil, 2000mil, 1000mil) (InComponentClass('Designator')) And SMT Small Component C2-GRM155R71E104KE14D (2775mil,1220mil) on Top Layer 
+   Violation between Room Definition: Between Room Designator (Bounding Region = (0mil, 0mil, 2000mil, 1000mil) (InComponentClass('Designator')) And SMT Small Component C3-GRM155R71E104KE14D (2775mil,1050mil) on Top Layer 
+   Violation between Room Definition: Between Room Designator (Bounding Region = (0mil, 0mil, 2000mil, 1000mil) (InComponentClass('Designator')) And SMT Small Component R3-Resistor 10K  +/-1 % 0402 63 mW (2775mil,1135mil) on Top Layer 
+Rule Violations :5
+
+Processing Rule : Room Designator_3 (Bounding Region = (0mil, 0mil, 2000mil, 1000mil) (InComponentClass('Designator'))
+   Violation between Room Definition: Between Component U1-ESP32-WROOM-32D (3189.999mil,1042.999mil) on Top Layer And Room Designator_3 (Bounding Region = (0mil, 0mil, 2000mil, 1000mil) (InComponentClass('Designator')) 
+   Violation between Room Definition: Between Room Designator_3 (Bounding Region = (0mil, 0mil, 2000mil, 1000mil) (InComponentClass('Designator')) And SMT Small Component C1-GRM188R61A226ME15D (2710mil,1235mil) on Top Layer 
+   Violation between Room Definition: Between Room Designator_3 (Bounding Region = (0mil, 0mil, 2000mil, 1000mil) (InComponentClass('Designator')) And SMT Small Component C2-GRM155R71E104KE14D (2775mil,1220mil) on Top Layer 
+   Violation between Room Definition: Between Room Designator_3 (Bounding Region = (0mil, 0mil, 2000mil, 1000mil) (InComponentClass('Designator')) And SMT Small Component C3-GRM155R71E104KE14D (2775mil,1050mil) on Top Layer 
+   Violation between Room Definition: Between Room Designator_3 (Bounding Region = (0mil, 0mil, 2000mil, 1000mil) (InComponentClass('Designator')) And SMT Small Component R3-Resistor 10K  +/-1 % 0402 63 mW (2775mil,1135mil) on Top Layer 
+Rule Violations :5
+
+Processing Rule : Room Designator_2 (Bounding Region = (0mil, 0mil, 2000mil, 1000mil) (InComponentClass('Designator'))
+   Violation between Room Definition: Between Component U1-ESP32-WROOM-32D (3189.999mil,1042.999mil) on Top Layer And Room Designator_2 (Bounding Region = (0mil, 0mil, 2000mil, 1000mil) (InComponentClass('Designator')) 
+   Violation between Room Definition: Between Room Designator_2 (Bounding Region = (0mil, 0mil, 2000mil, 1000mil) (InComponentClass('Designator')) And SMT Small Component C1-GRM188R61A226ME15D (2710mil,1235mil) on Top Layer 
+   Violation between Room Definition: Between Room Designator_2 (Bounding Region = (0mil, 0mil, 2000mil, 1000mil) (InComponentClass('Designator')) And SMT Small Component C2-GRM155R71E104KE14D (2775mil,1220mil) on Top Layer 
+   Violation between Room Definition: Between Room Designator_2 (Bounding Region = (0mil, 0mil, 2000mil, 1000mil) (InComponentClass('Designator')) And SMT Small Component C3-GRM155R71E104KE14D (2775mil,1050mil) on Top Layer 
+   Violation between Room Definition: Between Room Designator_2 (Bounding Region = (0mil, 0mil, 2000mil, 1000mil) (InComponentClass('Designator')) And SMT Small Component R3-Resistor 10K  +/-1 % 0402 63 mW (2775mil,1135mil) on Top Layer 
+Rule Violations :5
+
+Processing Rule : Room Designator (Bounding Region = (0mil, 0mil, 2000mil, 1000mil) (InComponentClass('Designator'))
+   Violation between Room Definition: Between Component U1-ESP32-WROOM-32D (3189.999mil,1042.999mil) on Top Layer And Room Designator (Bounding Region = (0mil, 0mil, 2000mil, 1000mil) (InComponentClass('Designator')) 
+   Violation between Room Definition: Between Room Designator (Bounding Region = (0mil, 0mil, 2000mil, 1000mil) (InComponentClass('Designator')) And SMT Small Component C1-GRM188R61A226ME15D (2710mil,1235mil) on Top Layer 
+   Violation between Room Definition: Between Room Designator (Bounding Region = (0mil, 0mil, 2000mil, 1000mil) (InComponentClass('Designator')) And SMT Small Component C2-GRM155R71E104KE14D (2775mil,1220mil) on Top Layer 
+   Violation between Room Definition: Between Room Designator (Bounding Region = (0mil, 0mil, 2000mil, 1000mil) (InComponentClass('Designator')) And SMT Small Component C3-GRM155R71E104KE14D (2775mil,1050mil) on Top Layer 
+   Violation between Room Definition: Between Room Designator (Bounding Region = (0mil, 0mil, 2000mil, 1000mil) (InComponentClass('Designator')) And SMT Small Component R3-Resistor 10K  +/-1 % 0402 63 mW (2775mil,1135mil) on Top Layer 
+Rule Violations :5
+
+Processing Rule : Room Top Level (Bounding Region = (0mil, 0mil, 2000mil, 1000mil) (Disabled)(InComponentClass('Top Level'))
 Rule Violations :0
 
-Processing Rule : Height Constraint (Min=0mil) (Max=71497.938mil) (Prefered=500mil) (All)
+Processing Rule : Room Designator (Bounding Region = (0mil, 0mil, 2000mil, 1000mil) (InComponentClass('Designator'))
+   Violation between Room Definition: Between Component U1-ESP32-WROOM-32D (3189.999mil,1042.999mil) on Top Layer And Room Designator (Bounding Region = (0mil, 0mil, 2000mil, 1000mil) (InComponentClass('Designator')) 
+   Violation between Room Definition: Between Room Designator (Bounding Region = (0mil, 0mil, 2000mil, 1000mil) (InComponentClass('Designator')) And SMT Small Component C1-GRM188R61A226ME15D (2710mil,1235mil) on Top Layer 
+   Violation between Room Definition: Between Room Designator (Bounding Region = (0mil, 0mil, 2000mil, 1000mil) (InComponentClass('Designator')) And SMT Small Component C2-GRM155R71E104KE14D (2775mil,1220mil) on Top Layer 
+   Violation between Room Definition: Between Room Designator (Bounding Region = (0mil, 0mil, 2000mil, 1000mil) (InComponentClass('Designator')) And SMT Small Component C3-GRM155R71E104KE14D (2775mil,1050mil) on Top Layer 
+   Violation between Room Definition: Between Room Designator (Bounding Region = (0mil, 0mil, 2000mil, 1000mil) (InComponentClass('Designator')) And SMT Small Component R3-Resistor 10K  +/-1 % 0402 63 mW (2775mil,1135mil) on Top Layer 
+Rule Violations :5
+
+Processing Rule : Room Designator (Bounding Region = (0mil, 0mil, 2000mil, 1000mil) (InComponentClass('Designator'))
+   Violation between Room Definition: Between Component U1-ESP32-WROOM-32D (3189.999mil,1042.999mil) on Top Layer And Room Designator (Bounding Region = (0mil, 0mil, 2000mil, 1000mil) (InComponentClass('Designator')) 
+   Violation between Room Definition: Between Room Designator (Bounding Region = (0mil, 0mil, 2000mil, 1000mil) (InComponentClass('Designator')) And SMT Small Component C1-GRM188R61A226ME15D (2710mil,1235mil) on Top Layer 
+   Violation between Room Definition: Between Room Designator (Bounding Region = (0mil, 0mil, 2000mil, 1000mil) (InComponentClass('Designator')) And SMT Small Component C2-GRM155R71E104KE14D (2775mil,1220mil) on Top Layer 
+   Violation between Room Definition: Between Room Designator (Bounding Region = (0mil, 0mil, 2000mil, 1000mil) (InComponentClass('Designator')) And SMT Small Component C3-GRM155R71E104KE14D (2775mil,1050mil) on Top Layer 
+   Violation between Room Definition: Between Room Designator (Bounding Region = (0mil, 0mil, 2000mil, 1000mil) (InComponentClass('Designator')) And SMT Small Component R3-Resistor 10K  +/-1 % 0402 63 mW (2775mil,1135mil) on Top Layer 
+Rule Violations :5
+
+Processing Rule : Component Clearance Constraint ( Horizontal Gap = 4mil, Vertical Gap = 4mil ) (Disabled)(All),(All) 
+Rule Violations :0
+
+Processing Rule : Height Constraint (Min=0mil) (Max=71497.938mil) (Prefered=500mil) (Disabled)(All)
 Rule Violations :0
 
 
-Violations Detected : 35
+Violations Detected : 177
 Waived Violations : 0
 PCB Health Issues : 0
-Time Elapsed        : 00:00:02
+Time Elapsed        : 00:00:01
