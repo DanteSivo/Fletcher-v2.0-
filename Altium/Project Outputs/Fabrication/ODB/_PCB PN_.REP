@@ -1,0 +1,136 @@
+*************************************************************
+FileName = PCB1.PcbDoc
+ODB++ directory structure
+*************************************************************
+Generated File : C:\Users\Dante Sivo\Documents\GitHub\Fletcher-v2.0-\Altium\Project Outputs\Fabrication\ODB\odb\steps\pcb\profile
+
+Generated File : C:\Users\Dante Sivo\Documents\GitHub\Fletcher-v2.0-\Altium\Project Outputs\Fabrication\ODB\odb\steps\pcb\stephdr
+
+Generated File : C:\Users\Dante Sivo\Documents\GitHub\Fletcher-v2.0-\Altium\Project Outputs\Fabrication\ODB\odb\steps\pcb\attrlist
+
+Generated File : C:\Users\Dante Sivo\Documents\GitHub\Fletcher-v2.0-\Altium\Project Outputs\Fabrication\ODB\odb\steps\pcb\layers\dielectric1\features
+
+Generated File : C:\Users\Dante Sivo\Documents\GitHub\Fletcher-v2.0-\Altium\Project Outputs\Fabrication\ODB\odb\steps\pcb\layers\dielectric1\attrlist
+
+Generated File : C:\Users\Dante Sivo\Documents\GitHub\Fletcher-v2.0-\Altium\Project Outputs\Fabrication\ODB\odb\steps\pcb\layers\drill_non-plated_bottom-top\features
+
+Generated File : C:\Users\Dante Sivo\Documents\GitHub\Fletcher-v2.0-\Altium\Project Outputs\Fabrication\ODB\odb\steps\pcb\layers\drill_non-plated_bottom-top\attrlist
+
+Generated File : C:\Users\Dante Sivo\Documents\GitHub\Fletcher-v2.0-\Altium\Project Outputs\Fabrication\ODB\odb\steps\pcb\layers\drill_non-plated_bottom-top\tools
+
+Generated File : C:\Users\Dante Sivo\Documents\GitHub\Fletcher-v2.0-\Altium\Project Outputs\Fabrication\ODB\odb\steps\pcb\layers\dielectric_1\features
+
+Generated File : C:\Users\Dante Sivo\Documents\GitHub\Fletcher-v2.0-\Altium\Project Outputs\Fabrication\ODB\odb\steps\pcb\layers\dielectric_1\attrlist
+
+Generated File : C:\Users\Dante Sivo\Documents\GitHub\Fletcher-v2.0-\Altium\Project Outputs\Fabrication\ODB\odb\steps\pcb\layers\dielectric_2\features
+
+Generated File : C:\Users\Dante Sivo\Documents\GitHub\Fletcher-v2.0-\Altium\Project Outputs\Fabrication\ODB\odb\steps\pcb\layers\dielectric_2\attrlist
+
+Generated File : C:\Users\Dante Sivo\Documents\GitHub\Fletcher-v2.0-\Altium\Project Outputs\Fabrication\ODB\odb\steps\pcb\layers\route_tool_path\features
+
+Generated File : C:\Users\Dante Sivo\Documents\GitHub\Fletcher-v2.0-\Altium\Project Outputs\Fabrication\ODB\odb\steps\pcb\layers\route_tool_path\attrlist
+
+Generated File : C:\Users\Dante Sivo\Documents\GitHub\Fletcher-v2.0-\Altium\Project Outputs\Fabrication\ODB\odb\steps\pcb\layers\bottom_assembly\features
+
+Generated File : C:\Users\Dante Sivo\Documents\GitHub\Fletcher-v2.0-\Altium\Project Outputs\Fabrication\ODB\odb\steps\pcb\layers\bottom_assembly\attrlist
+
+Generated File : C:\Users\Dante Sivo\Documents\GitHub\Fletcher-v2.0-\Altium\Project Outputs\Fabrication\ODB\odb\steps\pcb\layers\drill_plated_bottom-top\features
+
+Generated File : C:\Users\Dante Sivo\Documents\GitHub\Fletcher-v2.0-\Altium\Project Outputs\Fabrication\ODB\odb\steps\pcb\layers\drill_plated_bottom-top\attrlist
+
+Generated File : C:\Users\Dante Sivo\Documents\GitHub\Fletcher-v2.0-\Altium\Project Outputs\Fabrication\ODB\odb\steps\pcb\layers\drill_plated_bottom-top\tools
+
+Generated File : C:\Users\Dante Sivo\Documents\GitHub\Fletcher-v2.0-\Altium\Project Outputs\Fabrication\ODB\odb\steps\pcb\layers\board\features
+
+Generated File : C:\Users\Dante Sivo\Documents\GitHub\Fletcher-v2.0-\Altium\Project Outputs\Fabrication\ODB\odb\steps\pcb\layers\board\attrlist
+
+Generated File : C:\Users\Dante Sivo\Documents\GitHub\Fletcher-v2.0-\Altium\Project Outputs\Fabrication\ODB\odb\steps\pcb\layers\layer_1\features
+
+Generated File : C:\Users\Dante Sivo\Documents\GitHub\Fletcher-v2.0-\Altium\Project Outputs\Fabrication\ODB\odb\steps\pcb\layers\layer_1\attrlist
+
+Generated File : C:\Users\Dante Sivo\Documents\GitHub\Fletcher-v2.0-\Altium\Project Outputs\Fabrication\ODB\odb\steps\pcb\layers\bottom_paste\features
+
+Generated File : C:\Users\Dante Sivo\Documents\GitHub\Fletcher-v2.0-\Altium\Project Outputs\Fabrication\ODB\odb\steps\pcb\layers\bottom_paste\attrlist
+
+Generated File : C:\Users\Dante Sivo\Documents\GitHub\Fletcher-v2.0-\Altium\Project Outputs\Fabrication\ODB\odb\steps\pcb\layers\dimensions\features
+
+Generated File : C:\Users\Dante Sivo\Documents\GitHub\Fletcher-v2.0-\Altium\Project Outputs\Fabrication\ODB\odb\steps\pcb\layers\dimensions\attrlist
+
+Generated File : C:\Users\Dante Sivo\Documents\GitHub\Fletcher-v2.0-\Altium\Project Outputs\Fabrication\ODB\odb\steps\pcb\layers\layer_2\features
+
+Generated File : C:\Users\Dante Sivo\Documents\GitHub\Fletcher-v2.0-\Altium\Project Outputs\Fabrication\ODB\odb\steps\pcb\layers\layer_2\attrlist
+
+Generated File : C:\Users\Dante Sivo\Documents\GitHub\Fletcher-v2.0-\Altium\Project Outputs\Fabrication\ODB\odb\steps\pcb\layers\top_3d_body\features
+
+Generated File : C:\Users\Dante Sivo\Documents\GitHub\Fletcher-v2.0-\Altium\Project Outputs\Fabrication\ODB\odb\steps\pcb\layers\top_3d_body\attrlist
+
+Generated File : C:\Users\Dante Sivo\Documents\GitHub\Fletcher-v2.0-\Altium\Project Outputs\Fabrication\ODB\odb\steps\pcb\layers\top_courtyard\features
+
+Generated File : C:\Users\Dante Sivo\Documents\GitHub\Fletcher-v2.0-\Altium\Project Outputs\Fabrication\ODB\odb\steps\pcb\layers\top_courtyard\attrlist
+
+Generated File : C:\Users\Dante Sivo\Documents\GitHub\Fletcher-v2.0-\Altium\Project Outputs\Fabrication\ODB\odb\steps\pcb\layers\top_assembly\features
+
+Generated File : C:\Users\Dante Sivo\Documents\GitHub\Fletcher-v2.0-\Altium\Project Outputs\Fabrication\ODB\odb\steps\pcb\layers\top_assembly\attrlist
+
+Generated File : C:\Users\Dante Sivo\Documents\GitHub\Fletcher-v2.0-\Altium\Project Outputs\Fabrication\ODB\odb\steps\pcb\layers\bottom_3d_body\features
+
+Generated File : C:\Users\Dante Sivo\Documents\GitHub\Fletcher-v2.0-\Altium\Project Outputs\Fabrication\ODB\odb\steps\pcb\layers\bottom_3d_body\attrlist
+
+Generated File : C:\Users\Dante Sivo\Documents\GitHub\Fletcher-v2.0-\Altium\Project Outputs\Fabrication\ODB\odb\steps\pcb\layers\keep-out_layer\features
+
+Generated File : C:\Users\Dante Sivo\Documents\GitHub\Fletcher-v2.0-\Altium\Project Outputs\Fabrication\ODB\odb\steps\pcb\layers\keep-out_layer\attrlist
+
+Generated File : C:\Users\Dante Sivo\Documents\GitHub\Fletcher-v2.0-\Altium\Project Outputs\Fabrication\ODB\odb\steps\pcb\layers\bottom_overlay\features
+
+Generated File : C:\Users\Dante Sivo\Documents\GitHub\Fletcher-v2.0-\Altium\Project Outputs\Fabrication\ODB\odb\steps\pcb\layers\bottom_overlay\attrlist
+
+Generated File : C:\Users\Dante Sivo\Documents\GitHub\Fletcher-v2.0-\Altium\Project Outputs\Fabrication\ODB\odb\steps\pcb\layers\mechanical_17\features
+
+Generated File : C:\Users\Dante Sivo\Documents\GitHub\Fletcher-v2.0-\Altium\Project Outputs\Fabrication\ODB\odb\steps\pcb\layers\mechanical_17\attrlist
+
+Generated File : C:\Users\Dante Sivo\Documents\GitHub\Fletcher-v2.0-\Altium\Project Outputs\Fabrication\ODB\odb\steps\pcb\layers\bottom_solder\features
+
+Generated File : C:\Users\Dante Sivo\Documents\GitHub\Fletcher-v2.0-\Altium\Project Outputs\Fabrication\ODB\odb\steps\pcb\layers\bottom_solder\attrlist
+
+Generated File : C:\Users\Dante Sivo\Documents\GitHub\Fletcher-v2.0-\Altium\Project Outputs\Fabrication\ODB\odb\steps\pcb\layers\bottom_courtyard\features
+
+Generated File : C:\Users\Dante Sivo\Documents\GitHub\Fletcher-v2.0-\Altium\Project Outputs\Fabrication\ODB\odb\steps\pcb\layers\bottom_courtyard\attrlist
+
+Generated File : C:\Users\Dante Sivo\Documents\GitHub\Fletcher-v2.0-\Altium\Project Outputs\Fabrication\ODB\odb\steps\pcb\layers\bottom_layer\features
+
+Generated File : C:\Users\Dante Sivo\Documents\GitHub\Fletcher-v2.0-\Altium\Project Outputs\Fabrication\ODB\odb\steps\pcb\layers\bottom_layer\attrlist
+
+Generated File : C:\Users\Dante Sivo\Documents\GitHub\Fletcher-v2.0-\Altium\Project Outputs\Fabrication\ODB\odb\steps\pcb\layers\top_paste\features
+
+Generated File : C:\Users\Dante Sivo\Documents\GitHub\Fletcher-v2.0-\Altium\Project Outputs\Fabrication\ODB\odb\steps\pcb\layers\top_paste\attrlist
+
+Generated File : C:\Users\Dante Sivo\Documents\GitHub\Fletcher-v2.0-\Altium\Project Outputs\Fabrication\ODB\odb\steps\pcb\layers\top_overlay\features
+
+Generated File : C:\Users\Dante Sivo\Documents\GitHub\Fletcher-v2.0-\Altium\Project Outputs\Fabrication\ODB\odb\steps\pcb\layers\top_overlay\attrlist
+
+Generated File : C:\Users\Dante Sivo\Documents\GitHub\Fletcher-v2.0-\Altium\Project Outputs\Fabrication\ODB\odb\steps\pcb\layers\top_solder\features
+
+Generated File : C:\Users\Dante Sivo\Documents\GitHub\Fletcher-v2.0-\Altium\Project Outputs\Fabrication\ODB\odb\steps\pcb\layers\top_solder\attrlist
+
+Generated File : C:\Users\Dante Sivo\Documents\GitHub\Fletcher-v2.0-\Altium\Project Outputs\Fabrication\ODB\odb\steps\pcb\layers\top_layer\features
+
+Generated File : C:\Users\Dante Sivo\Documents\GitHub\Fletcher-v2.0-\Altium\Project Outputs\Fabrication\ODB\odb\steps\pcb\layers\top_layer\attrlist
+
+Generated File : C:\Users\Dante Sivo\Documents\GitHub\Fletcher-v2.0-\Altium\Project Outputs\Fabrication\ODB\odb\steps\pcb\layers\comp_+_top\features
+
+Generated File : C:\Users\Dante Sivo\Documents\GitHub\Fletcher-v2.0-\Altium\Project Outputs\Fabrication\ODB\odb\steps\pcb\layers\comp_+_top\components
+
+Generated File : C:\Users\Dante Sivo\Documents\GitHub\Fletcher-v2.0-\Altium\Project Outputs\Fabrication\ODB\odb\steps\pcb\layers\rout\features
+
+Generated File : C:\Users\Dante Sivo\Documents\GitHub\Fletcher-v2.0-\Altium\Project Outputs\Fabrication\ODB\odb\steps\pcb\layers\rout\tools
+
+Generated File : C:\Users\Dante Sivo\Documents\GitHub\Fletcher-v2.0-\Altium\Project Outputs\Fabrication\ODB\odb\steps\pcb\eda\data
+
+Generated File : C:\Users\Dante Sivo\Documents\GitHub\Fletcher-v2.0-\Altium\Project Outputs\Fabrication\ODB\odb\matrix\matrix
+
+Generated File : C:\Users\Dante Sivo\Documents\GitHub\Fletcher-v2.0-\Altium\Project Outputs\Fabrication\ODB\odb\symbols\uds_oblong_th82.8031x55.244x45x4x4_270\features
+
+Generated File : C:\Users\Dante Sivo\Documents\GitHub\Fletcher-v2.0-\Altium\Project Outputs\Fabrication\ODB\odb\symbols\uds_oblong_th114.2992x55.244x45x4x4_90\features
+
+Generated File : C:\Users\Dante Sivo\Documents\GitHub\Fletcher-v2.0-\Altium\Project Outputs\Fabrication\ODB\odb\symbols\uds_oblong_th94.6141x55.244x45x4x4_90\features
+

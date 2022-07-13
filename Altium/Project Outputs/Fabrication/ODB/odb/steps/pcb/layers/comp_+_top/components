@@ -1,0 +1,1250 @@
+#
+#Component attribute names
+#
+@0 .comp_mount_type
+@1 .comp_height
+
+# CMP 0
+CMP 21 0.395 1.332 90 N J1 PPPC102LFBN-RC ;0=2,1=0.3445
+PRP Case/Package 'PPPC102LFBN-RC'
+PRP Connector_Type 'Header'
+PRP Datasheet_URL 'http://datasheet.octopart.com/PPPC102LFBN-RC-Sullins-datasheet-8327184.pdf'
+PRP Datasheet_Version 'Rev. D, 10/2007'
+PRP Gender 'Female'
+PRP Manufacturer 'Sullins'
+PRP Max_Operating_Temperature '105°C'
+PRP Min_Operating_Temperature '-40°C'
+PRP Mounting_Technology 'TH'
+PRP Package_Description 'Female Header, Pitch 2.54 mm, 2 x 10 Position, Height 8.75 mm, Tail Length 3.2 mm'
+PRP Package_Reference 'PPPC102LFBN-RC'
+PRP Pins ''
+PRP RoHS_Compliant 'Unknown'
+TOP 0 0.345 1.782 0 N 14 0 J1-1
+TOP 1 0.445 1.782 90 N 74 35 J1-2
+TOP 2 0.345 1.682 0 N 48 0 J1-3
+TOP 3 0.445 1.682 90 N 47 0 J1-4
+TOP 4 0.345 1.582 0 N 50 0 J1-5
+TOP 5 0.445 1.582 90 N 49 0 J1-6
+TOP 6 0.345 1.482 0 N 53 0 J1-7
+TOP 7 0.445 1.482 90 N 52 0 J1-8
+TOP 8 0.345 1.382 0 N 51 0 J1-9
+TOP 9 0.445 1.382 90 N 62 0 J1-10
+TOP 10 0.345 1.282 0 N 60 0 J1-11
+TOP 11 0.445 1.282 90 N 59 2 J1-12
+TOP 12 0.345 1.182 270 N 22 0 J1-13
+TOP 13 0.445 1.182 180 N 23 0 J1-14
+TOP 14 0.345 1.082 270 N 58 0 J1-15
+TOP 15 0.445 1.082 180 N 61 0 J1-16
+TOP 16 0.345 0.982 270 N 21 0 J1-17
+TOP 17 0.445 0.982 180 N 25 0 J1-18
+TOP 18 0.345 0.882 270 N 73 26 J1-19
+TOP 19 0.445 0.882 180 N 73 25 J1-20
+#
+# CMP 1
+CMP 20 1.123 1.294 0 N R30 Jumper_0402 ;0=1,1=0.0157
+PRP Case/Package '0402'
+PRP DNP 'DNP'
+PRP Max_Operating_Temperature '155°C'
+PRP Min_Operating_Temperature '-55°C'
+PRP Pins '2'
+PRP Value '0'
+TOP 0 1.1052835 1.294 270 N 61 1 R30-1
+TOP 1 1.1407165 1.294 270 N 22 1 R30-2
+#
+# CMP 2
+CMP 20 0.91 1.36 0 N R29 Jumper_0402 ;0=1,1=0.0157
+PRP Case/Package '0402'
+PRP DNP 'DNP'
+PRP Max_Operating_Temperature '155°C'
+PRP Min_Operating_Temperature '-55°C'
+PRP Pins '2'
+PRP Value '0'
+TOP 0 0.8922835 1.36 270 N 62 1 R29-1
+TOP 1 0.9277165 1.36 270 N 23 1 R29-2
+#
+# CMP 3
+CMP 20 0.675 0.5566724 270 N R17 Resistor_10K__+/-1_%_0402_63_mW ;0=1,1=0.0157
+PRP Case/Package '0402'
+PRP DNP 'DNP'
+PRP Max_Operating_Temperature '155°C'
+PRP Min_Operating_Temperature '-55°C'
+PRP Parameter_1 ''
+PRP Pins '2'
+PRP Power '63mW'
+PRP Tolerance '1%'
+PRP Value '10k'
+TOP 0 0.675 0.5389559 180 N 74 34 R17-1
+TOP 1 0.675 0.5743889 180 N 65 0 R17-2
+#
+# CMP 4
+CMP 20 1.775 3 270 N R28 33R2J ;0=1,1=0.0157
+PRP Case/Package '0402'
+PRP Mounting_Technology 'SMT'
+PRP Pins '2'
+PRP Power '63mW'
+PRP Tolerance '5%'
+PRP Value '33O'
+TOP 0 1.775 2.9822835 180 N 2 0 R28-1
+TOP 1 1.775 3.0177165 180 N 19 0 R28-2
+#
+# CMP 5
+CMP 20 1.812497 3 270 N R27 33R2J ;0=1,1=0.0157
+PRP Case/Package '0402'
+PRP Mounting_Technology 'SMT'
+PRP Pins '2'
+PRP Power '63mW'
+PRP Tolerance '5%'
+PRP Value '33O'
+TOP 0 1.812497 2.9822835 180 N 3 0 R27-1
+TOP 1 1.812497 3.0177165 180 N 20 0 R27-2
+#
+# CMP 6
+CMP 15 1.385 0.5669291 270 N J4 U.FL-R-SMT-1(80) ;0=1,1=0.0000
+PRP Body_Material 'Bronze'
+PRP Body_Plating 'Silver'
+PRP Case/Package 'SMD/SMT'
+PRP Center_Contact_Plating 'Gold'
+PRP Connector_Type 'Receptacle,Male Pin'
+PRP Contact_Material 'Brass'
+PRP Dielectric_Material 'Polymer'
+PRP Fastening_Type 'SNAP-ON'
+PRP Housing_Color 'Beige'
+PRP Impedance '50R'
+PRP Lead_Free 'Lead Free'
+PRP Mating_Cycles '30'
+PRP Max_Frequency '6GHz'
+PRP Max_Operating_Temperature '90°C'
+PRP Min_Operating_Temperature '-40°C'
+PRP Mount 'Surface Mount'
+PRP Number_of_Ports '1'
+PRP Package_Quantity '10000'
+PRP Packaging 'Tape and Reel'
+PRP RoHS_Compliant 'Yes'
+PRP Series 'U.FL'
+PRP Termination 'Solder'
+TOP 0 1.3249606 0.5669291 90 N 66 0 J4-1
+TOP 1 1.385 0.625 90 N 73 37 J4-2
+TOP 2 1.385 0.5088582 90 N 73 38 J4-3
+#
+# CMP 7
+CMP 14 0.8125 3.075 180 N F1 0466001.NRHF ;0=1,1=0.0000
+PRP Parameter_1 ''
+PRP Value '1A'
+TOP 0 0.865 3.075 180 N 5 0 F1-1
+TOP 1 0.76 3.075 180 N 4 1 F1-2
+#
+# CMP 8
+CMP 7 0.26 3.0631102 270 N C17 T491D227K010AT ;0=1,1=0.1220
+PRP Capacitance '220uF'
+PRP Case_Code_(Imperial) '2917'
+PRP Case_Code_(Metric) '7343'
+PRP Construction 'Flat'
+PRP Depth '4.3mm'
+PRP Dielectric_Material 'Tantalum'
+PRP Dissipation_Factor '8%'
+PRP ESR_(Equivalent_Series_Resistance) '500mR'
+PRP Failure_Rate '0.001%'
+PRP Features 'General Purpose'
+PRP Height '2.8mm'
+PRP Height_-_Seated_(Max) '0.122inch'
+PRP Lead_Free 'Lead Free'
+PRP Leakage_Current '22uA'
+PRP Length '7.3mm'
+PRP Life_(Hours) '2000Hour'
+PRP Max_Operating_Temperature '125°C'
+PRP Min_Operating_Temperature '-55°C'
+PRP Mount 'Surface Mount,PCB'
+PRP Package_Quantity '1'
+PRP Packaging 'Tape and Reel'
+PRP Polarity 'Polar'
+PRP Radiation_Hardening 'No'
+PRP REACH_SVHC 'No SVHC'
+PRP Ripple_Current '548mA'
+PRP RoHS_Compliant 'Yes'
+PRP Series 'T491'
+PRP Termination 'SMD/SMT'
+PRP Tolerance '10%'
+PRP Voltage_Rating '10V'
+PRP Voltage_Rating_(DC) '10V'
+PRP Weight '0.023634oz'
+PRP Width '4.3mm'
+TOP 0 0.26 2.945 180 N 14 1 C17-1
+TOP 1 0.26 3.1812205 180 N 73 39 C17-2
+#
+# CMP 9
+CMP 9 1.0649995 2.0179995 0 N U1 ESP32-WROOM-32D ;0=1,1=0.0000
+PRP Parameter_1 ''
+TOP 0 0.7303538 2.2250861 0 N 73 96 U1-1
+TOP 1 0.7303538 2.1750861 0 N 74 25 U1-2
+TOP 2 0.7303538 2.1250861 0 N 68 2 U1-3
+TOP 3 0.7303538 2.0750861 0 N 0 34 U1-4
+TOP 4 0.7303538 2.0250861 0 N 0 33 U1-5
+TOP 5 0.7303538 1.9750861 0 N 48 1 U1-6
+TOP 6 0.7303538 1.9250861 0 N 47 1 U1-7
+TOP 7 0.7303538 1.8750861 0 N 50 1 U1-8
+TOP 8 0.7303538 1.8250861 0 N 49 1 U1-9
+TOP 9 0.7303538 1.7750861 0 N 53 1 U1-10
+TOP 10 0.7303538 1.7250861 0 N 52 1 U1-11
+TOP 11 0.7303538 1.6750861 0 N 51 1 U1-12
+TOP 12 0.7303538 1.6250861 0 N 62 3 U1-13
+TOP 13 0.7303538 1.5750861 0 N 60 2 U1-14
+TOP 14 0.8399995 1.535716 0 N 73 97 U1-15
+TOP 15 0.8899995 1.535716 0 N 59 0 U1-16
+TOP 16 0.9399995 1.535716 0 N 0 32 U1-17
+TOP 17 0.9899995 1.535716 0 N 0 31 U1-18
+TOP 18 1.0399995 1.535716 0 N 0 30 U1-19
+TOP 19 1.0899995 1.535716 0 N 0 29 U1-20
+TOP 20 1.1399995 1.535716 0 N 22 5 U1-21
+TOP 21 1.1899995 1.535716 0 N 23 5 U1-22
+TOP 22 1.2399995 1.535716 0 N 61 3 U1-23
+TOP 23 1.2899995 1.535716 0 N 58 1 U1-24
+TOP 24 1.3996452 1.5750861 0 N 54 0 U1-25
+TOP 25 1.3996452 1.6250861 0 N 7 0 U1-26
+TOP 26 1.3996452 1.6750861 0 N 56 1 U1-27
+TOP 27 1.3996452 1.7250861 0 N 57 1 U1-28
+TOP 28 1.3996452 1.7750861 0 N 12 1 U1-29
+TOP 29 1.3996452 1.8250861 0 N 13 1 U1-30
+TOP 30 1.3996452 1.8750861 0 N 11 1 U1-31
+TOP 31 1.3996452 1.9250861 0 N 0 28 U1-32
+TOP 32 1.3996452 1.9750861 0 N 67 1 U1-33
+TOP 33 1.3996452 2.0250861 0 N 25 3 U1-34
+TOP 34 1.3996452 2.0750861 0 N 21 3 U1-35
+TOP 35 1.3996452 2.1250861 0 N 9 1 U1-36
+TOP 36 1.3996452 2.1750861 0 N 10 1 U1-37
+TOP 37 1.3996452 2.2250861 0 N 73 98 U1-38
+TOP 38 0.9709444 1.8851254 90 N 73 24 U1-39
+TOP 39 1.0811806 1.8851254 90 N 73 17 U1-39
+TOP 40 1.0811806 1.9402435 90 N 73 19 U1-39
+TOP 41 1.0260625 1.9402435 90 N 73 21 U1-39
+TOP 42 0.9709444 1.9402435 90 N 73 16 U1-39
+TOP 43 0.9980704 1.9682357 0 N 73 14 U1-39
+TOP 44 1.0531885 1.9682357 0 N 73 15 U1-39
+TOP 45 1.0531885 1.9131176 0 N 73 20 U1-39
+TOP 46 0.9980704 1.9131176 0 N 73 22 U1-39
+TOP 47 1.0531885 1.8579995 0 N 73 18 U1-39
+TOP 48 0.9980704 1.8579995 0 N 73 23 U1-39
+TOP 49 0.9705113 1.9678026 0 N 73 86 U1-39
+TOP 50 0.9705113 1.9126845 0 N 73 87 U1-39
+TOP 51 0.9705113 1.8575664 0 N 73 88 U1-39
+TOP 52 1.0807475 1.9678026 0 N 73 89 U1-39
+TOP 53 1.0807475 1.9126845 0 N 73 90 U1-39
+TOP 54 1.0807475 1.8575664 0 N 73 91 U1-39
+TOP 55 1.0256294 1.9678026 0 N 73 92 U1-39
+TOP 56 1.0256294 1.9126845 0 N 73 93 U1-39
+TOP 57 1.0256294 1.8575664 0 N 73 94 U1-39
+TOP 58 1.0256294 1.8575664 0 N 73 95 U1-39
+#
+# CMP 10
+CMP 13 1.395 2.665 0 N P1 77311-462K05LF ;0=2,1=0.6394
+PRP Case/Package '77311-5'
+PRP Connector_Type 'Header'
+PRP Datasheet_URL 'http://portal.fciconnect.com/Comergent//fci/drawing/77311.pdf'
+PRP Datasheet_Version 'Rev. CK, 07/2016'
+PRP DNP 'DNP'
+PRP Gender 'Male'
+PRP Manufacturer 'FCI Electronics'
+PRP Manufacturer_URL 'http://portal.fciconnect.com/'
+PRP Max_Operating_Temperature ''
+PRP Min_Operating_Temperature ''
+PRP Mounting_Technology 'TH'
+PRP Package_Description 'Male Header, Pitch 2.54 mm, 1 x 5 Position, Height 16.24 mm, Tail Length 3.05 mm'
+PRP Package_Reference '77311-5'
+PRP Pins ''
+PRP RoHS_Compliant 'Unknown'
+TOP 0 1.195 2.665 0 N 16 0 P1-1
+TOP 1 1.295 2.665 0 N 73 27 P1-2
+TOP 2 1.395 2.665 0 N 21 1 P1-3
+TOP 3 1.495 2.665 0 N 25 1 P1-4
+TOP 4 1.595 2.665 0 N 0 0 P1-5
+#
+# CMP 11
+CMP 16 0.7662597 0.3243889 0 N D8 CESD5V0D1 ;0=1,1=0.0492
+PRP Case/Package 'SOD-123-2'
+PRP Datasheet_URL 'http://www.cj-elec.com/gallery/txUpfile/f05a5831e2d7f622a930855050fbe076.pdf'
+PRP Datasheet_Version 'Rev. B, 04/2014'
+PRP Forward_Current ''
+PRP Forward_Voltage ''
+PRP Manufacturer 'Jiangsu Changjiang Electronics Technology'
+PRP Max_Operating_Temperature ''
+PRP Max_Surge_Current ''
+PRP Min_Operating_Temperature ''
+PRP Mounting_Technology 'SM'
+PRP Package_Description '2-Pin Surface Mount Device, Body 2.7 x 1.6 mm'
+PRP Package_Reference 'SOD-123-2'
+PRP Package_URL 'http://www.cj-elec.com/txUpfile/201412112231195145.pdf'
+PRP Peak_Inverse_Voltage ''
+PRP Pins ''
+PRP RoHS_Compliant 'Unknown'
+TOP 0 0.7024802 0.3243889 0 N 73 40 D8-1
+TOP 1 0.8300393 0.3243889 0 N 64 0 D8-2
+#
+# CMP 12
+CMP 16 0.9694093 0.3243889 180 N D9 CESD5V0D1 ;0=1,1=0.0492
+PRP Case/Package 'SOD-123-2'
+PRP Datasheet_URL 'http://www.cj-elec.com/gallery/txUpfile/f05a5831e2d7f622a930855050fbe076.pdf'
+PRP Datasheet_Version 'Rev. B, 04/2014'
+PRP Forward_Current ''
+PRP Forward_Voltage ''
+PRP Manufacturer 'Jiangsu Changjiang Electronics Technology'
+PRP Max_Operating_Temperature ''
+PRP Max_Surge_Current ''
+PRP Min_Operating_Temperature ''
+PRP Mounting_Technology 'SM'
+PRP Package_Description '2-Pin Surface Mount Device, Body 2.7 x 1.6 mm'
+PRP Package_Reference 'SOD-123-2'
+PRP Package_URL 'http://www.cj-elec.com/txUpfile/201412112231195145.pdf'
+PRP Peak_Inverse_Voltage ''
+PRP Pins ''
+PRP RoHS_Compliant 'Unknown'
+TOP 0 1.0331888 0.3243889 180 N 73 41 D9-1
+TOP 1 0.9056297 0.3243889 180 N 63 0 D9-2
+#
+# CMP 13
+CMP 5 1.6279436 2.8253274 270 N C18 GRM155R71E104KE14D ;0=1,1=0.0217
+PRP Capacitance '100nF'
+TOP 0 1.6279436 2.8056424 180 N 73 42 C18-1
+TOP 1 1.6279436 2.8450125 180 N 17 0 C18-2
+#
+# CMP 14
+CMP 20 1.9157961 3.200433 0 N R26 5D6KR2J ;0=1,1=0.0157
+PRP Case/Package '0402'
+PRP Mounting_Technology 'SMT'
+PRP Pins '2'
+PRP Power '63mW'
+PRP Tolerance '5%'
+PRP Value '5.6kO'
+TOP 0 1.8980796 3.200433 270 N 8 0 R26-1
+TOP 1 1.9335126 3.200433 270 N 73 43 R26-2
+#
+# CMP 15
+CMP 16 1.835 3.12 270 N D6 CESD5V0D1 ;0=1,1=0.0492
+PRP Case/Package 'SOD-123-2'
+PRP Datasheet_URL 'http://www.cj-elec.com/gallery/txUpfile/f05a5831e2d7f622a930855050fbe076.pdf'
+PRP Datasheet_Version 'Rev. B, 04/2014'
+PRP Forward_Current ''
+PRP Forward_Voltage ''
+PRP Manufacturer 'Jiangsu Changjiang Electronics Technology'
+PRP Max_Operating_Temperature ''
+PRP Max_Surge_Current ''
+PRP Min_Operating_Temperature ''
+PRP Mounting_Technology 'SM'
+PRP Package_Description '2-Pin Surface Mount Device, Body 2.7 x 1.6 mm'
+PRP Package_Reference 'SOD-123-2'
+PRP Package_URL 'http://www.cj-elec.com/txUpfile/201412112231195145.pdf'
+PRP Peak_Inverse_Voltage ''
+PRP Pins ''
+PRP RoHS_Compliant 'Unknown'
+TOP 0 1.835 3.0562205 270 N 73 44 D6-1
+TOP 1 1.835 3.1837796 270 N 20 1 D6-2
+#
+# CMP 16
+CMP 16 0.59 0.1843889 0 N D2 CESD5V0D1 ;0=1,1=0.0492
+PRP Case/Package 'SOD-123-2'
+PRP Datasheet_URL 'http://www.cj-elec.com/gallery/txUpfile/f05a5831e2d7f622a930855050fbe076.pdf'
+PRP Datasheet_Version 'Rev. B, 04/2014'
+PRP Forward_Current ''
+PRP Forward_Voltage ''
+PRP Manufacturer 'Jiangsu Changjiang Electronics Technology'
+PRP Max_Operating_Temperature ''
+PRP Max_Surge_Current ''
+PRP Min_Operating_Temperature ''
+PRP Mounting_Technology 'SM'
+PRP Package_Description '2-Pin Surface Mount Device, Body 2.7 x 1.6 mm'
+PRP Package_Reference 'SOD-123-2'
+PRP Package_URL 'http://www.cj-elec.com/txUpfile/201412112231195145.pdf'
+PRP Peak_Inverse_Voltage ''
+PRP Pins ''
+PRP RoHS_Compliant 'Unknown'
+TOP 0 0.5262205 0.1843889 0 N 73 45 D2-1
+TOP 1 0.6537796 0.1843889 0 N 16 1 D2-2
+#
+# CMP 17
+CMP 16 0.8899596 2.745 270 N D1 CESD5V0D1 ;0=1,1=0.0492
+PRP Case/Package 'SOD-123-2'
+PRP Datasheet_URL 'http://www.cj-elec.com/gallery/txUpfile/f05a5831e2d7f622a930855050fbe076.pdf'
+PRP Datasheet_Version 'Rev. B, 04/2014'
+PRP Forward_Current ''
+PRP Forward_Voltage ''
+PRP Manufacturer 'Jiangsu Changjiang Electronics Technology'
+PRP Max_Operating_Temperature ''
+PRP Max_Surge_Current ''
+PRP Min_Operating_Temperature ''
+PRP Mounting_Technology 'SM'
+PRP Package_Description '2-Pin Surface Mount Device, Body 2.7 x 1.6 mm'
+PRP Package_Reference 'SOD-123-2'
+PRP Package_URL 'http://www.cj-elec.com/txUpfile/201412112231195145.pdf'
+PRP Peak_Inverse_Voltage ''
+PRP Pins ''
+PRP RoHS_Compliant 'Unknown'
+TOP 0 0.8899596 2.6812205 270 N 73 46 D1-1
+TOP 1 0.8899596 2.8087796 270 N 16 2 D1-2
+#
+# CMP 18
+CMP 16 1.7518439 3.12 270 N D7 CESD5V0D1 ;0=1,1=0.0492
+PRP Case/Package 'SOD-123-2'
+PRP Datasheet_URL 'http://www.cj-elec.com/gallery/txUpfile/f05a5831e2d7f622a930855050fbe076.pdf'
+PRP Datasheet_Version 'Rev. B, 04/2014'
+PRP Forward_Current ''
+PRP Forward_Voltage ''
+PRP Manufacturer 'Jiangsu Changjiang Electronics Technology'
+PRP Max_Operating_Temperature ''
+PRP Max_Surge_Current ''
+PRP Min_Operating_Temperature ''
+PRP Mounting_Technology 'SM'
+PRP Package_Description '2-Pin Surface Mount Device, Body 2.7 x 1.6 mm'
+PRP Package_Reference 'SOD-123-2'
+PRP Package_URL 'http://www.cj-elec.com/txUpfile/201412112231195145.pdf'
+PRP Peak_Inverse_Voltage ''
+PRP Pins ''
+PRP RoHS_Compliant 'Unknown'
+TOP 0 1.7518439 3.0562205 270 N 73 47 D7-1
+TOP 1 1.7518439 3.1837796 270 N 19 1 D7-2
+#
+# CMP 19
+CMP 4 0.46 2.5253149 0 N U7 AP7361-33E-13 ;0=1,1=0.0650
+PRP Parameter_1 ''
+TOP 0 0.342874 2.6158661 270 N 14 2 U7-1
+TOP 1 0.577126 2.5253149 270 N 73 48 U7-2
+TOP 2 0.342874 2.5253149 270 N 73 49 U7-2
+TOP 3 0.342874 2.4347637 270 N 74 20 U7-3
+#
+# CMP 20
+CMP 19 0.95 0.8993889 270 N U6 NEO-M8M-0 ;0=1,1=0.0000
+PRP Parameter_1 ''
+TOP 0 0.6744095 0.6693889 90 N 24 0 U6-1
+TOP 1 0.7177166 0.6693889 90 N 65 1 U6-2
+TOP 2 0.7610237 0.6693889 90 N 30 0 U6-3
+TOP 3 0.8043307 0.6693889 90 N 55 0 U6-4
+TOP 4 0.8476378 0.6693889 90 N 35 0 U6-5
+TOP 5 0.8909449 0.6693889 90 N 36 0 U6-6
+TOP 6 0.934252 0.6693889 90 N 74 27 U6-7
+TOP 7 1.0523622 0.6693889 90 N 29 0 U6-8
+TOP 8 1.0956693 0.6693889 90 N 15 0 U6-9
+TOP 9 1.1389764 0.6693889 90 N 73 53 U6-10
+TOP 10 1.1822835 0.6693889 90 N 66 1 U6-11
+TOP 11 1.2255906 0.6693889 90 N 73 52 U6-12
+TOP 12 1.2255906 1.1293889 90 N 73 51 U6-13
+TOP 13 1.1822835 1.1293889 90 N 0 4 U6-14
+TOP 14 1.1389764 1.1293889 90 N 0 3 U6-15
+TOP 15 1.0956693 1.1293889 90 N 0 2 U6-16
+TOP 16 1.0523622 1.1293889 90 N 0 1 U6-17
+TOP 17 0.934252 1.1293889 90 N 31 0 U6-18
+TOP 18 0.8909449 1.1293889 90 N 32 0 U6-19
+TOP 19 0.8476378 1.1293889 90 N 33 0 U6-20
+TOP 20 0.8043307 1.1293889 90 N 34 0 U6-21
+TOP 21 0.7610237 1.1293889 90 N 74 28 U6-22
+TOP 22 0.7177166 1.1293889 90 N 74 29 U6-23
+TOP 23 0.6744095 1.1293889 90 N 73 50 U6-24
+#
+# CMP 21
+CMP 23 1.491 1.395 270 N U5 LIS331DLHTR ;0=1,1=0.0394
+TOP 0 1.452 1.339 0 N 37 0 U5-1
+TOP 1 1.471 1.339 0 N 0 6 U5-2
+TOP 2 1.491 1.339 0 N 0 5 U5-3
+TOP 3 1.511 1.339 0 N 23 2 U5-4
+TOP 4 1.53 1.339 0 N 73 59 U5-5
+TOP 5 1.547 1.375 90 N 22 2 U5-6
+TOP 6 1.547 1.395 90 N 73 58 U5-7
+TOP 7 1.547 1.415 90 N 1 0 U5-8
+TOP 8 1.53 1.451 0 N 56 0 U5-9
+TOP 9 1.511 1.451 0 N 73 57 U5-10
+TOP 10 1.491 1.451 0 N 57 0 U5-11
+TOP 11 1.471 1.451 0 N 73 56 U5-12
+TOP 12 1.452 1.451 0 N 73 55 U5-13
+TOP 13 1.435 1.415 90 N 74 12 U5-14
+TOP 14 1.435 1.395 90 N 74 11 U5-15
+TOP 15 1.435 1.375 90 N 73 54 U5-16
+#
+# CMP 22
+CMP 18 0.3673466 2.2546064 180 N U4 MS561101BA03-50 ;0=1,1=0.0000
+PRP Parameter_1 ''
+TOP 0 0.4116536 2.1807874 180 N 74 18 U4-1
+TOP 1 0.4116536 2.23 180 N 74 19 U4-2
+TOP 2 0.4116536 2.2792126 180 N 73 60 U4-3
+TOP 3 0.4116536 2.3284252 180 N 74 17 U4-4
+TOP 4 0.3250394 2.3284252 180 N 74 21 U4-5
+TOP 5 0.3250394 2.2792126 180 N 0 7 U4-6
+TOP 6 0.3250394 2.23 180 N 22 3 U4-7
+TOP 7 0.3250394 2.1807874 180 N 23 3 U4-8
+#
+# CMP 23
+CMP 25 1.8468407 1.9880708 270 N U3 W25N01GVZEIG_TR ;0=1,1=0.0000
+PRP Parameter_1 ''
+TOP 0 1.7718407 1.8402362 180 N 12 0 U3-1
+TOP 1 1.8218407 1.8402362 180 N 11 0 U3-2
+TOP 2 1.8718407 1.8402362 180 N 9 0 U3-3
+TOP 3 1.9218407 1.8402362 180 N 73 61 U3-4
+TOP 4 1.9218407 2.1359055 180 N 10 0 U3-5
+TOP 5 1.8718407 2.1359055 180 N 13 0 U3-6
+TOP 6 1.8218407 2.1359055 180 N 67 0 U3-7
+TOP 7 1.7718407 2.1359055 180 N 74 3 U3-8
+TOP 8 1.8468407 1.9880708 180 N 0 8 U3-9
+#
+# CMP 24
+CMP 8 1.7937489 2.872874 90 N U2 CP2102N-A02-GQFN24R ;0=1,1=0.0000
+TOP 0 1.8429615 2.9407874 0 N 28 0 U2-1
+TOP 1 1.8232765 2.9407874 0 N 73 62 U2-2
+TOP 2 1.8035914 2.9407874 0 N 3 1 U2-3
+TOP 3 1.7839064 2.9407874 0 N 2 1 U2-4
+TOP 4 1.7642214 2.9407874 0 N 74 0 U2-5
+TOP 5 1.7445363 2.9407874 0 N 74 1 U2-6
+TOP 6 1.7258355 2.9220866 90 N 74 2 U2-7
+TOP 7 1.7258355 2.9024016 90 N 17 1 U2-8
+TOP 8 1.7258355 2.8827165 90 N 27 0 U2-9
+TOP 9 1.7258355 2.8630315 90 N 0 9 U2-10
+TOP 10 1.7258355 2.8433465 90 N 0 10 U2-11
+TOP 11 1.7258355 2.8236614 90 N 0 11 U2-12
+TOP 12 1.7445363 2.8049606 0 N 0 12 U2-13
+TOP 13 1.7642214 2.8049606 0 N 0 13 U2-14
+TOP 14 1.7839064 2.8049606 0 N 39 0 U2-15
+TOP 15 1.8035914 2.8049606 0 N 0 14 U2-16
+TOP 16 1.8232765 2.8049606 0 N 0 15 U2-17
+TOP 17 1.8429615 2.8049606 0 N 72 0 U2-18
+TOP 18 1.8616623 2.8236614 90 N 26 0 U2-19
+TOP 19 1.8616623 2.8433465 90 N 40 0 U2-20
+TOP 20 1.8616623 2.8630315 90 N 38 0 U2-21
+TOP 21 1.8616623 2.8827165 90 N 70 0 U2-22
+TOP 22 1.8616623 2.9024016 90 N 69 0 U2-23
+TOP 23 1.8616623 2.9220866 90 N 71 0 U2-24
+TOP 24 1.7937489 2.872874 90 N 73 63 U2-25
+#
+# CMP 25
+CMP 24 1.08 0.1843889 270 N TP4 TPAD6R ;0=1,1=0.0000
+PRP Pins '1'
+TOP 0 1.08 0.1843889 270 N 43 0 TP4-1
+#
+# CMP 26
+CMP 20 1.093458 3.0080708 90 N R25 53D6KR2F ;0=1,1=0.0157
+PRP Case/Package '0402'
+PRP Mounting_Technology 'SMT'
+PRP Pins '2'
+PRP Power '63mW'
+PRP Tolerance '1%'
+PRP Value '53.6kO'
+TOP 0 1.093458 3.0257873 0 N 46 0 R25-1
+TOP 1 1.093458 2.9903543 0 N 73 64 R25-2
+#
+# CMP 27
+CMP 20 0.8230305 2.78437 90 N R24 Resistor_10K__+/-1_%_0402_63_mW ;0=1,1=0.0157
+PRP Case/Package '0402'
+PRP Max_Operating_Temperature '155°C'
+PRP Min_Operating_Temperature '-55°C'
+PRP Pins '2'
+PRP Power '63mW'
+PRP Tolerance '1%'
+PRP Value '10k'
+TOP 0 0.8230305 2.8020865 0 N 16 3 R24-1
+TOP 1 0.8230305 2.7666535 0 N 73 65 R24-2
+#
+# CMP 28
+CMP 20 0.72 0.5816724 270 N R23 Jumper_0402 ;0=1,1=0.0157
+PRP Case/Package '0402'
+PRP Max_Operating_Temperature '155°C'
+PRP Min_Operating_Temperature '-55°C'
+PRP Pins '2'
+PRP Value '0'
+TOP 0 0.72 0.5639559 180 N 73 66 R23-1
+TOP 1 0.72 0.5993889 180 N 65 2 R23-2
+#
+# CMP 29
+CMP 20 1.04 0.59 270 N R22 10R2F ;0=1,1=0.0157
+PRP Case/Package '0402'
+PRP Mounting_Technology 'SMT'
+PRP Pins '2'
+PRP Power '63mW'
+PRP Tolerance '1%'
+PRP Value '10O'
+TOP 0 1.04 0.5722835 180 N 6 0 R22-1
+TOP 1 1.04 0.6077165 180 N 15 1 R22-2
+#
+# CMP 30
+CMP 20 0.935 1.2143889 270 N R21 33R2J ;0=1,1=0.0157
+PRP Case/Package '0402'
+PRP Mounting_Technology 'SMT'
+PRP Pins '2'
+PRP Power '63mW'
+PRP Tolerance '5%'
+PRP Value '33O'
+TOP 0 0.935 1.1966724 180 N 31 1 R21-1
+TOP 1 0.935 1.2321054 180 N 61 2 R21-2
+#
+# CMP 31
+CMP 20 0.89 1.2143889 270 N R20 33R2J ;0=1,1=0.0157
+PRP Case/Package '0402'
+PRP Mounting_Technology 'SMT'
+PRP Pins '2'
+PRP Power '63mW'
+PRP Tolerance '5%'
+PRP Value '33O'
+TOP 0 0.89 1.1966724 180 N 32 1 R20-1
+TOP 1 0.89 1.2321054 180 N 62 2 R20-2
+#
+# CMP 32
+CMP 20 0.76 0.5793889 90 N R19 Resistor_1K_+/-5_%_0402_63_mW ;0=1,1=0.0157
+PRP Case/Package '0402'
+PRP Max_Operating_Temperature '155°C'
+PRP Min_Operating_Temperature '-55°C'
+PRP Pins '2'
+PRP Power '63mW'
+PRP Tolerance '5%'
+PRP Value '1k'
+TOP 0 0.76 0.5971054 0 N 30 1 R19-1
+TOP 1 0.76 0.5616724 0 N 44 0 R19-2
+#
+# CMP 33
+CMP 20 0.85 1.2143889 270 N R18 33R2J ;0=1,1=0.0157
+PRP Case/Package '0402'
+PRP Mounting_Technology 'SMT'
+PRP Pins '2'
+PRP Power '63mW'
+PRP Tolerance '5%'
+PRP Value '33O'
+TOP 0 0.85 1.1966724 180 N 33 1 R18-1
+TOP 1 0.85 1.2321054 180 N 60 1 R18-2
+#
+# CMP 34
+CMP 20 0.805 1.2143889 270 N R16 33R2J ;0=1,1=0.0157
+PRP Case/Package '0402'
+PRP Mounting_Technology 'SMT'
+PRP Pins '2'
+PRP Power '63mW'
+PRP Tolerance '5%'
+PRP Value '33O'
+TOP 0 0.805 1.1966724 180 N 34 1 R16-1
+TOP 1 0.805 1.2321054 180 N 59 1 R16-2
+#
+# CMP 35
+CMP 20 0.85 0.5743889 90 N R15 33R2J ;0=1,1=0.0157
+PRP Case/Package '0402'
+PRP Mounting_Technology 'SMT'
+PRP Pins '2'
+PRP Power '63mW'
+PRP Tolerance '5%'
+PRP Value '33O'
+TOP 0 0.85 0.5921054 0 N 35 1 R15-1
+TOP 1 0.85 0.5566724 0 N 63 1 R15-2
+#
+# CMP 36
+CMP 20 0.89 0.5743889 90 N R14 33R2J ;0=1,1=0.0157
+PRP Case/Package '0402'
+PRP Mounting_Technology 'SMT'
+PRP Pins '2'
+PRP Power '63mW'
+PRP Tolerance '5%'
+PRP Value '33O'
+TOP 0 0.89 0.5921054 0 N 36 1 R14-1
+TOP 1 0.89 0.5566724 0 N 64 1 R14-2
+#
+# CMP 37
+CMP 20 1.615 1.415 180 N R13 Resistor_10K__+/-1_%_0402_63_mW ;0=1,1=0.0157
+PRP Case/Package '0402'
+PRP Max_Operating_Temperature '155°C'
+PRP Min_Operating_Temperature '-55°C'
+PRP Pins '2'
+PRP Power '63mW'
+PRP Tolerance '1%'
+PRP Value '10k'
+TOP 0 1.6327165 1.415 90 N 74 10 R13-1
+TOP 1 1.5972835 1.415 90 N 1 1 R13-2
+#
+# CMP 38
+CMP 20 1.3806063 1.3562441 90 N R12 Jumper_0402 ;0=1,1=0.0157
+PRP Case/Package '0402'
+PRP Max_Operating_Temperature '155°C'
+PRP Min_Operating_Temperature '-55°C'
+PRP Pins '2'
+PRP Value '0'
+TOP 0 1.3806063 1.3739606 0 N 74 16 R12-1
+TOP 1 1.3806063 1.3385276 0 N 37 1 R12-2
+#
+# CMP 39
+CMP 20 2.1679751 2.8778937 270 N R11 Resistor_10K__+/-1_%_0402_63_mW ;0=1,1=0.0157
+PRP Case/Package '0402'
+PRP Max_Operating_Temperature '155°C'
+PRP Min_Operating_Temperature '-55°C'
+PRP Pins '2'
+PRP Power '63mW'
+PRP Tolerance '1%'
+PRP Value '10k'
+TOP 0 2.1679751 2.8601772 180 N 26 2 R11-1
+TOP 1 2.1679751 2.8956102 180 N 41 1 R11-2
+#
+# CMP 40
+CMP 20 1.9629354 2.8852756 90 N R10 Resistor_10K__+/-1_%_0402_63_mW ;0=1,1=0.0157
+PRP Case/Package '0402'
+PRP Max_Operating_Temperature '155°C'
+PRP Min_Operating_Temperature '-55°C'
+PRP Pins '2'
+PRP Power '63mW'
+PRP Tolerance '1%'
+PRP Value '10k'
+TOP 0 1.9629354 2.9029921 0 N 69 1 R10-1
+TOP 1 1.9629354 2.8675591 0 N 42 0 R10-2
+#
+# CMP 41
+CMP 20 1.885 2.685 0 N R9 Jumper_0402 ;0=1,1=0.0157
+PRP Case/Package '0402'
+PRP Max_Operating_Temperature '155°C'
+PRP Min_Operating_Temperature '-55°C'
+PRP Pins '2'
+PRP Value '0'
+TOP 0 1.8672835 2.685 270 N 25 2 R9-1
+TOP 1 1.9027165 2.685 270 N 38 1 R9-2
+#
+# CMP 42
+CMP 20 1.785 2.7427165 90 N R8 Resistor_10K__+/-1_%_0402_63_mW ;0=1,1=0.0157
+PRP Case/Package '0402'
+PRP DNP 'DNP'
+PRP Max_Operating_Temperature '155°C'
+PRP Min_Operating_Temperature '-55°C'
+PRP Pins '2'
+PRP Power '63mW'
+PRP Tolerance '1%'
+PRP Value '10k'
+TOP 0 1.785 2.760433 0 N 39 1 R8-1
+TOP 1 1.785 2.725 0 N 73 67 R8-2
+#
+# CMP 43
+CMP 20 1.885 2.645 0 N R7 Jumper_0402 ;0=1,1=0.0157
+PRP Case/Package '0402'
+PRP Max_Operating_Temperature '155°C'
+PRP Min_Operating_Temperature '-55°C'
+PRP Pins '2'
+PRP Value '0'
+TOP 0 1.8672835 2.645 270 N 21 2 R7-1
+TOP 1 1.9027165 2.645 270 N 40 1 R7-2
+#
+# CMP 44
+CMP 20 1.5910578 2.8253274 90 N R6 Resistor_47K5_+/-1_%_0402_63_mW ;0=1,1=0.0157
+PRP Case/Package '0402'
+PRP Max_Operating_Temperature '155°C'
+PRP Min_Operating_Temperature '-55°C'
+PRP Pins '2'
+PRP Power '63mW'
+PRP Tolerance '1%'
+PRP Value '47.5k'
+TOP 0 1.5910578 2.8430439 0 N 17 2 R6-1
+TOP 1 1.5910578 2.8076109 0 N 73 68 R6-2
+#
+# CMP 45
+CMP 20 1.6289826 2.8827421 0 N R5 Resistor_22K__+/-1_%_0402_63_mW ;0=1,1=0.0157
+PRP Case/Package '0402'
+PRP Max_Operating_Temperature '155°C'
+PRP Min_Operating_Temperature '-55°C'
+PRP Pins '2'
+PRP Power '63mW'
+PRP Tolerance '1%'
+PRP Value '22k'
+TOP 0 1.6112661 2.8827421 270 N 16 4 R5-1
+TOP 1 1.6466991 2.8827421 270 N 17 3 R5-2
+#
+# CMP 46
+CMP 20 1.6798643 2.8364567 270 N R4 Resistor_1K_+/-5_%_0402_63_mW ;0=1,1=0.0157
+PRP Case/Package '0402'
+PRP Max_Operating_Temperature '155°C'
+PRP Min_Operating_Temperature '-55°C'
+PRP Pins '2'
+PRP Power '63mW'
+PRP Tolerance '5%'
+PRP Value '1k'
+TOP 0 1.6798643 2.8187402 180 N 74 6 R4-1
+TOP 1 1.6798643 2.8541732 180 N 27 1 R4-2
+#
+# CMP 47
+CMP 20 0.65 2.11 90 N R3 Resistor_10K__+/-1_%_0402_63_mW ;0=1,1=0.0157
+PRP Case/Package '0402'
+PRP Max_Operating_Temperature '155°C'
+PRP Min_Operating_Temperature '-55°C'
+PRP Pins '2'
+PRP Power '63mW'
+PRP Tolerance '1%'
+PRP Value '10k'
+TOP 0 0.65 2.1277165 0 N 74 30 R3-1
+TOP 1 0.65 2.0922835 0 N 68 0 R3-2
+#
+# CMP 48
+CMP 20 1.2077165 1.42 180 N R2 Resistor_10K__+/-1_%_0402_63_mW ;0=1,1=0.0157
+PRP Case/Package '0402'
+PRP Max_Operating_Temperature '155°C'
+PRP Min_Operating_Temperature '-55°C'
+PRP Pins '2'
+PRP Power '63mW'
+PRP Tolerance '1%'
+PRP Value '10k'
+TOP 0 1.225433 1.42 90 N 74 15 R2-1
+TOP 1 1.19 1.42 90 N 23 4 R2-2
+#
+# CMP 49
+CMP 20 1.12 1.47 0 N R1 Resistor_10K__+/-1_%_0402_63_mW ;0=1,1=0.0157
+PRP Case/Package '0402'
+PRP Max_Operating_Temperature '155°C'
+PRP Min_Operating_Temperature '-55°C'
+PRP Pins '2'
+PRP Power '63mW'
+PRP Tolerance '1%'
+PRP Value '10k'
+TOP 0 1.1022835 1.47 270 N 74 14 R1-1
+TOP 1 1.1377165 1.47 270 N 22 4 R1-2
+#
+# CMP 50
+CMP 3 0.8427155 2.9431102 180 N Q4 AO3407A ;0=1,1=0.0492
+PRP Parameter_1 ''
+TOP 0 0.8899596 2.9057086 90 N 16 5 Q4-1
+TOP 1 0.8899596 2.9805117 90 N 18 0 Q4-2
+TOP 2 0.7954714 2.9431102 90 N 45 0 Q4-3
+#
+# CMP 51
+CMP 12 1.0013779 3.0277558 90 N Q3 MMBT3906 ;0=1,1=0.0472
+PRP Case/Package 'TO-236-3'
+PRP Datasheet_URL 'https://www.fairchildsemi.com/datasheets/MM/MMBT3906.pdf'
+PRP Datasheet_Version 'Rev. 1.2.2, 04/2014'
+PRP Elements '1'
+PRP Frequency '250MHz'
+PRP hFE_Min '100'
+PRP Manufacturer 'Fairchild'
+PRP Max_Operating_Temperature '150°C'
+PRP Min_Operating_Temperature '-55°C'
+PRP Mounting_Technology 'SM'
+PRP Package_Description '3-Pin Small Outline Transistor, Body 2.92 x 1.325 mm, Pitch 0.95 mm'
+PRP Package_Quantity '3000'
+PRP Package_Reference 'SOT23-3'
+PRP Package_Version 'Rev. 12, 03/2016'
+PRP Packaging 'TapeandReel'
+PRP Pins '3'
+PRP Power '350mW'
+PRP RoHS_Compliant 'True'
+PRP Transistor_Type ''
+PRP Vce_Max '400mV'
+PRP Vgs_(Max) ''
+PRP Vgs(th)_(Max)_@_Id ''
+TOP 0 1.0387795 3.0710629 0 N 46 1 Q3-1
+TOP 1 0.9639764 3.0710629 0 N 5 1 Q3-2
+TOP 2 1.0013779 2.9844487 0 N 18 1 Q3-3
+#
+# CMP 52
+CMP 22 2.0687882 2.9427559 90 N Q2 SS8050-G ;0=1,1=0.0000
+PRP Parameter_1 ''
+TOP 0 2.1061898 2.9825197 90 N 41 0 Q2-1
+TOP 1 2.0313866 2.9825197 90 N 54 1 Q2-2
+TOP 2 2.0687882 2.9029921 90 N 69 2 Q2-3
+#
+# CMP 53
+CMP 22 2.0687873 2.8099803 0 N Q1 SS8050-G ;0=1,1=0.0000
+PRP Parameter_1 ''
+TOP 0 2.0290235 2.8473819 0 N 42 1 Q1-1
+TOP 1 2.0290235 2.7725787 0 N 26 1 Q1-2
+TOP 2 2.1085511 2.8099803 0 N 7 1 Q1-3
+#
+# CMP 54
+CMP 0 0.9 3.325 180 N J5 0010845021 ;0=2,1=0.0000
+PRP Parameter_1 ''
+TOP 0 1.025 3.325 180 N 4 0 J5-1
+TOP 1 0.775 3.325 180 N 73 36 J5-2
+#
+# CMP 55
+CMP 1 0.8806299 0.1381684 0 N J3 1050170001 ;0=1,1=0.0000
+PRP DNP 'DNP'
+PRP Parameter_1 ''
+TOP 0 0.8294488 0.2356881 270 N 16 7 J3-1
+TOP 1 0.8550393 0.2356881 270 N 64 2 J3-2
+TOP 2 0.8806299 0.2356881 270 N 63 2 J3-3
+TOP 3 0.9062205 0.2356881 270 N 43 1 J3-4
+TOP 4 0.931811 0.2356881 270 N 73 103 J3-5
+TOP 5 1.0184252 0.1293889 270 N 73 28 J3-6
+TOP 6 0.7428346 0.1293889 270 N 73 29 J3-6
+TOP 7 0.9790551 0.2356881 0 N 73 30 J3-6
+TOP 8 0.7822047 0.2356881 0 N 73 31 J3-6
+TOP 9 0.9948031 0.1293889 270 N 73 99 J3-6
+TOP 10 0.7664567 0.1293889 270 N 73 100 J3-6
+TOP 11 0.92 0.1293889 270 N 73 101 J3-6
+TOP 12 0.8412598 0.1293889 270 N 73 102 J3-6
+#
+# CMP 56
+CMP 2 1.7937489 3.3960394 180 N J2 2012670005 ;0=1,1=0.0000
+PRP Parameter_1 ''
+TOP 0 1.9118591 3.2430866 180 N 73 104 J2-A1
+TOP 1 1.8921741 3.2430866 180 N 0 16 J2-A2
+TOP 2 1.8724891 3.2430866 180 N 0 17 J2-A3
+TOP 3 1.852804 3.2430866 180 N 16 8 J2-A4
+TOP 4 1.833119 3.2430866 180 N 8 1 J2-A5
+TOP 5 1.8134339 3.2430866 180 N 20 2 J2-A6
+TOP 6 1.7740639 3.2430866 180 N 19 2 J2-A7
+TOP 7 1.7543788 3.2430866 180 N 0 18 J2-A8
+TOP 8 1.7346938 3.2430866 180 N 16 9 J2-A9
+TOP 9 1.7150087 3.2430866 180 N 0 19 J2-A10
+TOP 10 1.6953237 3.2430866 180 N 0 20 J2-A11
+TOP 11 1.6756387 3.2430866 180 N 73 105 J2-A12
+TOP 12 1.6736702 3.3100158 180 N 73 106 J2-B1
+TOP 13 1.7051662 3.3100158 180 N 0 21 J2-B2
+TOP 14 1.7248513 3.3100158 180 N 0 22 J2-B3
+TOP 15 1.7445363 3.3100158 180 N 16 10 J2-B4
+TOP 16 1.7642213 3.3100158 180 N 8 2 J2-B5
+TOP 17 1.7839064 3.3100158 180 N 0 23 J2-B6
+TOP 18 1.8035914 3.3100158 180 N 0 24 J2-B7
+TOP 19 1.8232765 3.3100158 180 N 0 25 J2-B8
+TOP 20 1.8429615 3.3100158 180 N 16 11 J2-B9
+TOP 21 1.8626465 3.3100158 180 N 0 26 J2-B10
+TOP 22 1.8823316 3.3100158 180 N 0 27 J2-B11
+TOP 23 1.9138276 3.3100158 180 N 73 107 J2-B12
+TOP 24 1.9638276 3.2749764 90 N 73 32 J2-S1
+TOP 25 1.6236702 3.2749764 90 N 73 33 J2-S2
+TOP 26 1.9756387 3.486 90 N 73 34 J2-S3
+TOP 27 1.6118591 3.486 90 N 73 35 J2-S4
+#
+# CMP 57
+CMP 14 1.1575 0.57 0 N F2 0466001.NRHF ;0=1,1=0.0000
+PRP Parameter_1 ''
+PRP Value '1A'
+TOP 0 1.105 0.57 0 N 6 1 F2-1
+TOP 1 1.21 0.57 0 N 66 2 F2-2
+#
+# CMP 58
+CMP 10 0.76 0.495 90 N DS1 16-219A/T2D-AR2T1QY/3T ;0=1,1=0.0098
+PRP Case/Package '0402'
+PRP Colour ''
+PRP Datasheet_URL 'http://www.everlight.com/file/ProductFile/16-219A-T2D-AR2T1QY-3T.pdf'
+PRP Datasheet_Version 'Rev. 5, 04/2013'
+PRP Forward_Current '5mA'
+PRP Forward_Voltage '2.6V'
+PRP Illumination_Colour 'White'
+PRP Luminous_Intensity '360mcd'
+PRP Manufacturer 'Everlight Electronics'
+PRP Manufacturer_URL 'http://www.everlight.com/'
+PRP Max_Operating_Temperature '85°C'
+PRP Max_Power_Dissipation ''
+PRP Min_Operating_Temperature '-40°C'
+PRP Mounting_Technology 'SM'
+PRP Package_Description '2-Pin Surface Mount Device, Body 1 x 0.5 mm'
+PRP Package_Quantity '3000'
+PRP Package_Reference '0402'
+PRP Packaging 'TapeandReel'
+PRP Pins ''
+PRP Power '30mW'
+PRP RoHS_Compliant 'True'
+PRP Viewing_Angle '130degrees'
+TOP 0 0.76 0.5127165 90 N 44 1 DS1-1
+TOP 1 0.76 0.4772835 90 N 73 69 DS1-2
+#
+# CMP 59
+CMP 11 0.6227165 2.9431102 180 N D5 SS12 ;0=1,1=0.0984
+PRP Case/Package 'SMA'
+PRP Datasheet_URL 'https://www.fairchildsemi.com/datasheets/SS/SS12.pdf'
+PRP Datasheet_Version 'Rev. 1.9, 01/2015'
+PRP Forward_Current ''
+PRP Forward_Voltage '5dV'
+PRP Manufacturer 'Fairchild'
+PRP Manufacturer_URL 'https://www.fairchildsemi.com/'
+PRP Max_Operating_Temperature '125°C'
+PRP Max_Surge_Current '40A'
+PRP Min_Operating_Temperature '-65°C'
+PRP Mounting_Technology 'SM'
+PRP Package_Description '2-Pin Surface Mount Device, Body 4.375 x 2.725 mm'
+PRP Package_Quantity '7500'
+PRP Package_Reference 'DO-214AC-2'
+PRP Package_URL 'https://www.fairchildsemi.com/package-drawings/DO/DO214AC.pdf'
+PRP Packaging 'TapeandReel'
+PRP Peak_Inverse_Voltage ''
+PRP Peak_Reverse_Current '200uA'
+PRP Pins '2'
+PRP RoHS_Compliant 'True'
+TOP 0 0.7073622 2.9431102 180 N 45 1 D5-1
+TOP 1 0.5380708 2.9431102 180 N 14 3 D5-2
+#
+# CMP 60
+CMP 11 1.1849935 2.9850394 90 N D4 SS12 ;0=1,1=0.0984
+PRP Case/Package 'SMA'
+PRP Datasheet_URL 'https://www.fairchildsemi.com/datasheets/SS/SS12.pdf'
+PRP Datasheet_Version 'Rev. 1.9, 01/2015'
+PRP Forward_Current ''
+PRP Forward_Voltage '5dV'
+PRP Manufacturer 'Fairchild'
+PRP Manufacturer_URL 'https://www.fairchildsemi.com/'
+PRP Max_Operating_Temperature '125°C'
+PRP Max_Surge_Current '40A'
+PRP Min_Operating_Temperature '-65°C'
+PRP Mounting_Technology 'SM'
+PRP Package_Description '2-Pin Surface Mount Device, Body 4.375 x 2.725 mm'
+PRP Package_Quantity '7500'
+PRP Package_Reference 'DO-214AC-2'
+PRP Package_URL 'https://www.fairchildsemi.com/package-drawings/DO/DO214AC.pdf'
+PRP Packaging 'TapeandReel'
+PRP Peak_Inverse_Voltage ''
+PRP Peak_Reverse_Current '200uA'
+PRP Pins '2'
+PRP RoHS_Compliant 'True'
+TOP 0 1.1849935 3.0696851 90 N 46 2 D4-1
+TOP 1 1.1849935 2.9003937 90 N 18 2 D4-2
+#
+# CMP 61
+CMP 11 0.4777559 2.764685 180 N D3 SS12 ;0=1,1=0.0984
+PRP Case/Package 'SMA'
+PRP Datasheet_URL 'https://www.fairchildsemi.com/datasheets/SS/SS12.pdf'
+PRP Datasheet_Version 'Rev. 1.9, 01/2015'
+PRP Forward_Current ''
+PRP Forward_Voltage '5dV'
+PRP Manufacturer 'Fairchild'
+PRP Manufacturer_URL 'https://www.fairchildsemi.com/'
+PRP Max_Operating_Temperature '125°C'
+PRP Max_Surge_Current '40A'
+PRP Min_Operating_Temperature '-65°C'
+PRP Mounting_Technology 'SM'
+PRP Package_Description '2-Pin Surface Mount Device, Body 4.375 x 2.725 mm'
+PRP Package_Quantity '7500'
+PRP Package_Reference 'DO-214AC-2'
+PRP Package_URL 'https://www.fairchildsemi.com/package-drawings/DO/DO214AC.pdf'
+PRP Packaging 'TapeandReel'
+PRP Peak_Inverse_Voltage ''
+PRP Peak_Reverse_Current '200uA'
+PRP Pins '2'
+PRP RoHS_Compliant 'True'
+TOP 0 0.5624016 2.764685 180 N 16 6 D3-1
+TOP 1 0.3931102 2.764685 180 N 14 4 D3-2
+#
+# CMP 62
+CMP 5 0.245 2.615 0 N C16 GRM155R61E105KA12D ;0=1,1=0.0217
+PRP Capacitance '1uF'
+PRP Case_Code_(Imperial) '0402'
+PRP Case_Code_(Metric) '1005'
+PRP Depth '0.5mm'
+PRP Dielectric 'X5R'
+PRP Height '0.5mm'
+PRP Lead_Free 'Lead Free'
+PRP Length '1mm'
+PRP Material 'Ceramic'
+PRP Max_Operating_Temperature '85°C'
+PRP Min_Operating_Temperature '-55°C'
+PRP Mount 'Surface Mount'
+PRP Package_Quantity '10000'
+PRP Packaging 'Cut Tape'
+PRP REACH_SVHC 'No SVHC'
+PRP RoHS_Compliant 'Yes'
+PRP Series 'GRM'
+PRP Termination 'SMD/SMT'
+PRP Thickness '0.022inch'
+PRP Tolerance '10%'
+PRP Voltage_Rating '25V'
+PRP Voltage_Rating_(DC) '25V'
+PRP Weight '0.000212oz'
+PRP Width '0.5mm'
+TOP 0 0.225315 2.615 270 N 73 70 C16-1
+TOP 1 0.2646851 2.615 270 N 14 5 C16-2
+#
+# CMP 63
+CMP 5 0.2649995 2.4493925 90 N C15 GRM155R60J475ME87D ;0=1,1=0.0217
+PRP Capacitance '4.7uF'
+PRP Case_Code_(Imperial) '0402'
+PRP Case_Code_(Metric) '1005'
+PRP Construction 'Flat'
+PRP Depth '0.5mm'
+PRP Dielectric 'X5R'
+PRP Height '0.5mm'
+PRP Lead_Free 'Lead Free'
+PRP Length '1mm'
+PRP Max_Operating_Temperature '85°C'
+PRP Min_Operating_Temperature '-55°C'
+PRP Mount 'Surface Mount'
+PRP Package_Quantity '1'
+PRP Packaging 'Tape and Reel'
+PRP Radiation_Hardening 'No'
+PRP REACH_SVHC 'No SVHC'
+PRP RoHS_Compliant 'Yes'
+PRP Series 'GRM'
+PRP Thickness '0.022inch'
+PRP Tolerance '20%'
+PRP Voltage_Rating '6.3V'
+PRP Voltage_Rating_(DC) '6.3V'
+PRP Width '0.02inch'
+TOP 0 0.2649995 2.4690775 0 N 73 71 C15-1
+TOP 1 0.2649995 2.4297074 0 N 74 22 C15-2
+#
+# CMP 64
+CMP 17 0.125 2.155 90 N C14 T491D107K010AT ;0=1,1=0.1220
+PRP Capacitor_Type 'Tantalum'
+PRP Case/Package '2917'
+PRP Datasheet_URL 'http://www.kemet.com/Lists/ProductCatalog/Attachments/254/KEM_T2005_T491.pdf'
+PRP Datasheet_Version 'Jun-16'
+PRP ESR '700mohm'
+PRP Manufacturer 'Kemet'
+PRP Manufacturer_URL 'http://www.kemet.com/'
+PRP Max_Operating_Temperature '125°C'
+PRP Min_Operating_Temperature '-55°C'
+PRP Mounting_Technology 'SM'
+PRP Package_Description '2-Pin Surface Mount Device, Body 7.3 x 4.3 mm'
+PRP Package_Quantity '1'
+PRP Package_Reference 'T491-D'
+PRP Packaging 'TapeandReel'
+PRP Pins '2'
+PRP Ripple_Current '463mA'
+PRP RoHS_Compliant 'True'
+PRP Tolerance '10%'
+PRP Value '100µF'
+PRP Voltage_Rating '10V'
+TOP 0 0.125 2.2780315 0 N 74 23 C14-1
+TOP 1 0.125 2.0319685 0 N 73 72 C14-2
+#
+# CMP 65
+CMP 5 1.04 0.505 270 N C13 GCM155R71H473KE02J ;0=1,1=0.0217
+PRP Capacitance '47nF'
+TOP 0 1.04 0.485315 180 N 73 73 C13-1
+TOP 1 1.04 0.5246851 180 N 6 2 C13-2
+#
+# CMP 66
+CMP 5 0.6962526 1.1973891 0 N C12 GRM155R71E104KE14D ;0=1,1=0.0217
+PRP Capacitance '100nF'
+TOP 0 0.6765676 1.1973891 270 N 73 74 C12-1
+TOP 1 0.7159377 1.1973891 270 N 74 24 C12-2
+#
+# CMP 67
+CMP 5 0.695 1.24 0 N C11 GRM155R60J475ME87D ;0=1,1=0.0217
+PRP Capacitance '4.7uF'
+PRP Case_Code_(Imperial) '0402'
+PRP Case_Code_(Metric) '1005'
+PRP Construction 'Flat'
+PRP Depth '0.5mm'
+PRP Dielectric 'X5R'
+PRP Height '0.5mm'
+PRP Lead_Free 'Lead Free'
+PRP Length '1mm'
+PRP Max_Operating_Temperature '85°C'
+PRP Min_Operating_Temperature '-55°C'
+PRP Mount 'Surface Mount'
+PRP Package_Quantity '1'
+PRP Packaging 'Tape and Reel'
+PRP Radiation_Hardening 'No'
+PRP REACH_SVHC 'No SVHC'
+PRP RoHS_Compliant 'Yes'
+PRP Series 'GRM'
+PRP Thickness '0.022inch'
+PRP Tolerance '20%'
+PRP Voltage_Rating '6.3V'
+PRP Voltage_Rating_(DC) '6.3V'
+PRP Width '0.02inch'
+TOP 0 0.675315 1.24 270 N 73 75 C11-1
+TOP 1 0.7146851 1.24 270 N 74 26 C11-2
+#
+# CMP 68
+CMP 5 1.3806063 1.4362441 90 N C10 GRM155R71E104KE14D ;0=1,1=0.0217
+PRP Capacitance '100nF'
+TOP 0 1.3806063 1.4559291 0 N 73 76 C10-1
+TOP 1 1.3806063 1.416559 0 N 74 9 C10-2
+#
+# CMP 69
+CMP 5 1.34 1.435 90 N C9 GRM155R60J106ME44D ;0=1,1=0.0217
+PRP Capacitance '10uF'
+PRP Case_Code_(Imperial) '0402'
+PRP Case_Code_(Metric) '1005'
+PRP Depth '0.5mm'
+PRP Dielectric 'X5R'
+PRP Height '0.5mm'
+PRP Lead_Free 'Lead Free'
+PRP Length '1mm'
+PRP Max_Operating_Temperature '85°C'
+PRP Min_Operating_Temperature '-55°C'
+PRP Mount 'Surface Mount'
+PRP Package_Quantity '10000'
+PRP Packaging 'Tape and Reel'
+PRP REACH_SVHC 'No SVHC'
+PRP RoHS_Compliant 'Yes'
+PRP Series 'GRM'
+PRP Termination 'SMD/SMT'
+PRP Thickness '0.022inch'
+PRP Tolerance '20%'
+PRP Voltage_Rating '6.3V'
+PRP Voltage_Rating_(DC) '6.3V'
+PRP Width '0.02inch'
+TOP 0 1.34 1.454685 0 N 73 77 C9-1
+TOP 1 1.34 1.4153149 0 N 74 13 C9-2
+#
+# CMP 70
+CMP 5 0.4730396 2.201738 90 N C8 GRM155R71E104KE14D ;0=1,1=0.0217
+PRP Capacitance '100nF'
+TOP 0 0.4730396 2.221423 0 N 73 78 C8-1
+TOP 1 0.4730396 2.1820529 0 N 74 31 C8-2
+#
+# CMP 71
+CMP 5 1.665 2.13 0 N C7 GRM155R71E104KE14D ;0=1,1=0.0217
+PRP Capacitance '100nF'
+TOP 0 1.645315 2.13 270 N 73 79 C7-1
+TOP 1 1.6846851 2.13 270 N 74 7 C7-2
+#
+# CMP 72
+CMP 5 1.685 2.06 270 N C6 GRM155R60J475ME87D ;0=1,1=0.0217
+PRP Capacitance '4.7uF'
+PRP Case_Code_(Imperial) '0402'
+PRP Case_Code_(Metric) '1005'
+PRP Construction 'Flat'
+PRP Depth '0.5mm'
+PRP Dielectric 'X5R'
+PRP Height '0.5mm'
+PRP Lead_Free 'Lead Free'
+PRP Length '1mm'
+PRP Max_Operating_Temperature '85°C'
+PRP Min_Operating_Temperature '-55°C'
+PRP Mount 'Surface Mount'
+PRP Package_Quantity '1'
+PRP Packaging 'Tape and Reel'
+PRP Radiation_Hardening 'No'
+PRP REACH_SVHC 'No SVHC'
+PRP RoHS_Compliant 'Yes'
+PRP Series 'GRM'
+PRP Thickness '0.022inch'
+PRP Tolerance '20%'
+PRP Voltage_Rating '6.3V'
+PRP Voltage_Rating_(DC) '6.3V'
+PRP Width '0.02inch'
+TOP 0 1.685 2.040315 180 N 73 80 C6-1
+TOP 1 1.685 2.0796851 180 N 74 8 C6-2
+#
+# CMP 73
+CMP 5 1.655 2.97 0 N C5 GRM155R60J475ME87D ;0=1,1=0.0217
+PRP Capacitance '4.7uF'
+PRP Case_Code_(Imperial) '0402'
+PRP Case_Code_(Metric) '1005'
+PRP Construction 'Flat'
+PRP Depth '0.5mm'
+PRP Dielectric 'X5R'
+PRP Height '0.5mm'
+PRP Lead_Free 'Lead Free'
+PRP Length '1mm'
+PRP Max_Operating_Temperature '85°C'
+PRP Min_Operating_Temperature '-55°C'
+PRP Mount 'Surface Mount'
+PRP Package_Quantity '1'
+PRP Packaging 'Tape and Reel'
+PRP Radiation_Hardening 'No'
+PRP REACH_SVHC 'No SVHC'
+PRP RoHS_Compliant 'Yes'
+PRP Series 'GRM'
+PRP Thickness '0.022inch'
+PRP Tolerance '20%'
+PRP Voltage_Rating '6.3V'
+PRP Voltage_Rating_(DC) '6.3V'
+PRP Width '0.02inch'
+TOP 0 1.635315 2.97 270 N 73 81 C5-1
+TOP 1 1.6746851 2.97 270 N 74 5 C5-2
+#
+# CMP 74
+CMP 5 1.6564007 2.9240866 0 N C4 GRM155R71E104KE14D ;0=1,1=0.0217
+PRP Capacitance '100nF'
+TOP 0 1.6367157 2.9240866 270 N 73 82 C4-1
+TOP 1 1.6760858 2.9240866 270 N 74 4 C4-2
+#
+# CMP 75
+CMP 5 0.65 2.025 270 N C3 GRM155R71E104KE14D ;0=1,1=0.0217
+PRP Capacitance '100nF'
+TOP 0 0.65 2.005315 180 N 73 83 C3-1
+TOP 1 0.65 2.0446851 180 N 68 1 C3-2
+#
+# CMP 76
+CMP 5 0.64 2.195 90 N C2 GRM155R71E104KE14D ;0=1,1=0.0217
+PRP Capacitance '100nF'
+TOP 0 0.64 2.214685 0 N 73 84 C2-1
+TOP 1 0.64 2.1753149 0 N 74 32 C2-2
+#
+# CMP 77
+CMP 6 0.585 2.21 90 N C1 GRM188R61A226ME15D ;0=1,1=0.0315
+PRP Capacitance '22uF'
+PRP Tolerance '20%'
+TOP 0 0.585 2.2395276 0 N 73 85 C1-1
+TOP 1 0.585 2.1804725 0 N 74 33 C1-2
+#

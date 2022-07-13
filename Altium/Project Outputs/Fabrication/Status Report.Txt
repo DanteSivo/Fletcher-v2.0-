@@ -1,0 +1,10 @@
+Output: Test Point Report
+Type  : Test Points
+From  : PCB Document [PCB1.PcbDoc]
+   Generated File[_PCB PN_.ipc]
+
+
+Files Generated   : 1
+Documents Printed : 0
+
+Finished Output Generation At 12:45:04 AM On 7/13/2022
