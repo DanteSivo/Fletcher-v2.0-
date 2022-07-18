@@ -13,38 +13,55 @@ Generating : Bottom Overlay
 
 
 Used DCodes :
-    D10
+    D14
 *************************************************************
 
 *************************************************************
-Generating : Layer 1
-      File : _PCB PN_.GP1
+Generating : Bottom Paste
+      File : _PCB PN_.GBP
 
-    Adding Layer      : Layer 1
+    Adding Layer      : Bottom Paste
 
     Adding Layer      : Board
 
     Adding Layer      : Mechanical 17
 
+    Adding Layer      : Bottom Layer
+
     Adding Layer      : Multi-Layer
 
 
 Used DCodes :
-    D10
-    D132
-    D133
-    D134
-    D135
-    D136
-    D137
-    D138
-    D139
-    D140
-    D141
-    D142
-    D143
-    D144
-    D145
+*************************************************************
+
+*************************************************************
+Generating : Bottom Solder
+      File : _PCB PN_.GBS
+
+    Adding Layer      : Bottom Solder
+
+    Adding Layer      : Board
+
+    Adding Layer      : Mechanical 17
+
+    Adding Layer      : Bottom Layer
+
+    Adding Layer      : Multi-Layer
+
+
+Used DCodes :
+    D98
+    D99
+    D100
+    D101
+    D102
+    D103
+    D104
+    D105
+    D106
+    D107
+    D108
+    D109
 *************************************************************
 
 *************************************************************
@@ -117,27 +134,31 @@ Used DCodes :
 *************************************************************
 
 *************************************************************
-Generating : Top Layer
-      File : _PCB PN_.GTL
+Generating : Top Paste
+      File : _PCB PN_.GTP
 
-    Adding Layer      : Top Layer
+    Adding Layer      : Top Paste
 
     Adding Layer      : Board
 
     Adding Layer      : Mechanical 17
 
+    Adding Layer      : Top Layer
+
     Adding Layer      : Multi-Layer
 
 
 Used DCodes :
-    D10
-    D15
-    D16
+    D21
+    D22
+    D23
+    D24
     D25
     D26
     D27
     D28
     D29
+    D30
     D31
     D32
     D33
@@ -167,30 +188,31 @@ Used DCodes :
     D57
     D58
     D59
-    D71
-    D72
-    D110
-    D111
-    D112
-    D113
-    D114
-    D115
-    D116
-    D117
-    D118
-    D119
-    D120
-    D121
-    D122
-    D123
-    D124
-    D125
-    D126
-    D127
-    D128
-    D129
-    D130
-    D131
+*************************************************************
+
+*************************************************************
+Generating : Top Overlay
+      File : _PCB PN_.GTO
+
+    Adding Layer      : Top Overlay
+
+    Adding Layer      : Board
+
+    Adding Layer      : Mechanical 17
+
+
+Used DCodes :
+    D10
+    D11
+    D12
+    D13
+    D14
+    D15
+    D16
+    D17
+    D18
+    D19
+    D20
 *************************************************************
 
 *************************************************************
@@ -258,10 +280,12 @@ Used DCodes :
 *************************************************************
 
 *************************************************************
-Generating : Top Overlay
-      File : _PCB PN_.GTO
+Generating : Bottom Pad Master
+      File : _PCB PN_.GPB
 
-    Adding Layer      : Top Overlay
+    Adding Layer      : Bottom Layer
+
+    Adding Layer      : Multi-Layer
 
     Adding Layer      : Board
 
@@ -269,93 +293,130 @@ Generating : Top Overlay
 
 
 Used DCodes :
-    D10
-    D11
-    D12
-    D13
+    D120
+    D121
+    D122
+    D123
+    D124
+    D125
+    D126
+    D127
+    D128
+*************************************************************
+
+*************************************************************
+Generating : Bottom Layer
+      File : _PCB PN_.GBL
+
+    Adding Layer      : Bottom Layer
+
+    Adding Layer      : Board
+
+    Adding Layer      : Mechanical 17
+
+    Adding Layer      : Multi-Layer
+
+
+Used DCodes :
     D14
-    D15
-    D16
-    D17
-    D18
-    D19
-    D20
+    D113
+    D115
+    D120
+    D121
+    D122
+    D123
+    D124
+    D125
+    D126
+    D127
+    D128
+    D129
+    D130
+    D131
 *************************************************************
 
 *************************************************************
-Generating : Bottom Paste
-      File : _PCB PN_.GBP
+Generating : Layer 2
+      File : _PCB PN_.GP2
 
-    Adding Layer      : Bottom Paste
+    Adding Layer      : Layer 2
 
     Adding Layer      : Board
 
     Adding Layer      : Mechanical 17
-
-    Adding Layer      : Bottom Layer
 
     Adding Layer      : Multi-Layer
 
 
 Used DCodes :
+    D14
+    D132
+    D133
+    D134
+    D136
+    D143
+    D144
+    D145
+    D146
+    D147
+    D148
+    D149
+    D150
 *************************************************************
 
 *************************************************************
-Generating : Bottom Solder
-      File : _PCB PN_.GBS
+Generating : Layer 1
+      File : _PCB PN_.GP1
 
-    Adding Layer      : Bottom Solder
+    Adding Layer      : Layer 1
 
     Adding Layer      : Board
 
     Adding Layer      : Mechanical 17
-
-    Adding Layer      : Bottom Layer
 
     Adding Layer      : Multi-Layer
 
 
 Used DCodes :
-    D98
-    D99
-    D100
-    D101
-    D102
-    D103
-    D104
-    D105
-    D106
-    D107
-    D108
-    D109
+    D14
+    D132
+    D133
+    D134
+    D135
+    D136
+    D137
+    D138
+    D139
+    D140
+    D141
+    D142
+    D143
+    D144
+    D145
 *************************************************************
 
 *************************************************************
-Generating : Top Paste
-      File : _PCB PN_.GTP
-
-    Adding Layer      : Top Paste
-
-    Adding Layer      : Board
-
-    Adding Layer      : Mechanical 17
+Generating : Top Layer
+      File : _PCB PN_.GTL
 
     Adding Layer      : Top Layer
 
+    Adding Layer      : Board
+
+    Adding Layer      : Mechanical 17
+
     Adding Layer      : Multi-Layer
 
 
 Used DCodes :
-    D21
-    D22
-    D23
-    D24
+    D14
+    D15
+    D20
     D25
     D26
     D27
     D28
     D29
-    D30
     D31
     D32
     D33
@@ -385,54 +446,18 @@ Used DCodes :
     D57
     D58
     D59
-*************************************************************
-
-*************************************************************
-Generating : Layer 2
-      File : _PCB PN_.GP2
-
-    Adding Layer      : Layer 2
-
-    Adding Layer      : Board
-
-    Adding Layer      : Mechanical 17
-
-    Adding Layer      : Multi-Layer
-
-
-Used DCodes :
-    D10
-    D132
-    D133
-    D135
-    D136
-    D142
-    D144
-    D145
-    D146
-    D147
-    D148
-    D149
-    D150
-*************************************************************
-
-*************************************************************
-Generating : Bottom Layer
-      File : _PCB PN_.GBL
-
-    Adding Layer      : Bottom Layer
-
-    Adding Layer      : Board
-
-    Adding Layer      : Mechanical 17
-
-    Adding Layer      : Multi-Layer
-
-
-Used DCodes :
-    D10
+    D71
+    D72
+    D110
+    D111
+    D112
     D113
+    D114
     D115
+    D116
+    D117
+    D118
+    D119
     D120
     D121
     D122
@@ -445,31 +470,6 @@ Used DCodes :
     D129
     D130
     D131
-*************************************************************
-
-*************************************************************
-Generating : Bottom Pad Master
-      File : _PCB PN_.GPB
-
-    Adding Layer      : Bottom Layer
-
-    Adding Layer      : Multi-Layer
-
-    Adding Layer      : Board
-
-    Adding Layer      : Mechanical 17
-
-
-Used DCodes :
-    D120
-    D121
-    D122
-    D123
-    D124
-    D125
-    D126
-    D127
-    D128
 *************************************************************
 
 *************************************************************
@@ -486,7 +486,7 @@ Generating : Drill Drawing
 
 
 Used DCodes :
-    D16
+    D15
     D151
     D152
 *************************************************************
