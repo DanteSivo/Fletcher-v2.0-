@@ -1,0 +1,468 @@
+<html>
+<head>
+<META http-equiv="Content-Type" content="text/html">
+<style type="text/css">
+		h1, h2, h3, h4, h5, h6 {
+			font-family : segoe ui;
+			color : black;
+			background-color : #EDE7D9;
+			padding: 0.3em;
+		}
+
+		h1 {
+			font-size: 1.2em;
+		}		
+
+		h2 {
+			font-size: 1.2em;
+		}
+
+		body {
+			font-family : segoe ui;
+		}
+
+		td, th {
+			padding: 0.5em;
+			text-align : left;
+			width: 10em;
+		}
+		th {
+			background-color : #EEEEEE;
+
+		}
+		th.column1, td.column1 {
+			text-align: left;
+			width : auto;
+		}
+		table {
+			width : 100%;
+			font-size: 0.9em;
+		}
+
+		.DRC_summary_header {
+			padding-bottom : 0.1em;
+			border : 0px solid black;
+			width: 100%;
+			align: left;
+		}
+
+		.DRC_summary_header_col1,
+		.DRC_summary_header_col2, 
+		.DRC_summary_header_col3 {
+			color : black;
+			font-size:100%;
+			padding : 0em;
+			padding-top : 0.2em;
+			padding-bottom 0.2em;
+			border : 0px solid black;
+			vertical-align: top;
+			text-align: left;
+		}
+
+		.DRC_summary_header_col1 {
+			font-weight: bold;
+			width: 9em;
+		}
+
+		.DRC_summary_header_col2 {
+			width: 0.1em;
+		
+		}
+
+		.DRC_summary_header_col3 {
+			width : auto;
+		}
+
+		.header_holder {
+		    Width = 100%;
+		    border = 0px solid green;
+		    padding = 0;
+		}
+
+
+		.front_matter, .front_matter_column1, .front_matter_column2, .front_matter_column3
+		{
+			left : 0;
+			top : 0;
+			padding: 0em;
+			padding-top : 0.1em;
+			border : 0px solid black;
+			width : 100%;
+			vertical-align: top;
+			text-align: left;
+		}
+
+		.front_matter_column1 {
+			width : 8em;
+			font-weight: bold;
+		}
+
+		.front_matter_column2 {
+			width: 0.1em;
+		}
+
+		.front_matter_column3 {
+			width : auto;
+		}
+
+		.total_column1, .total_column {
+			font-weight : bold;
+		}
+		.total_column1 {
+			text-align : left;
+		}
+		.warning, .error {
+			color : red;
+			font-weight : bold;
+		}
+		tr.onmouseout_odd {
+			background-color : #white;
+		}
+		tr.onmouseout_even { 
+			background-color : #FAFAFA;
+		}
+		tr.onmouseover_odd, tr.onmouseover_even { 
+			background-color : #EEEEEE;
+		} 
+		a:link, a:visited, .q a:link,.q a:active,.q {
+			color: #21489e; 
+		}
+		a:link.callback, a:visited.callback { 
+			color: #21489e;
+		}
+		a:link.customize, a:visited.customize {
+			color: #C0C0C0;
+			position: absolute; 
+			right: 10px;
+		}	
+		p.contents_level1 {
+			font-weight : bold;
+			font-size : 110%;
+			margin : 0.5em;
+		}
+		p.contents_level2 {
+			position : relative;
+			left : 20px;
+			margin : 0.5em;
+		}
+	</style><script type="text/javascript">
+		function coordToMils(coord) {
+			var number = coord / 10000;
+			
+			if (number != number.toFixed(3))
+				number = number.toFixed(3);
+
+			return number + 'mil'
+		}
+
+		function coordToMM(coord) {
+			var number = 0.0254 * coord / 10000;
+			
+			if (number != number.toFixed(4))
+				number = number.toFixed(4);
+			
+			return number + 'mm'
+		}
+	
+		function convertCoord(coordNode, units) {
+			for (var i = 0; i < coordNode.childNodes.length; i++) {
+				coordNode.removeChild(coordNode.childNodes[i]);
+			}
+
+			var coord = coordNode.getAttribute('value');
+			if (coord != null) {
+				if (units == 'mm') {
+					textNode = document.createTextNode(coordToMM(coord));
+					coordNode.appendChild(textNode);
+				} else if (units == 'mil') {
+					textNode = document.createTextNode(coordToMils(coord));		
+					coordNode.appendChild(textNode);	
+				}
+			}
+		}
+	
+		function convertUnits(unitNode, units) {
+			for (var i = 0; i < unitNode.childNodes.length; i++) {
+				unitNode.removeChild(unitNode.childNodes[i]);		
+			}
+		
+			textNode = document.createTextNode(units); 
+			unitNode.appendChild(textNode);
+		}
+	
+		function changeUnits(radio_input, units) {
+			if (radio_input.checked) {
+			
+				var elements = document.getElementsByName('coordinate');
+				if (elements) {
+					for (var i = 0; i < elements.length; i++) {
+						convertCoord(elements[i], units);
+					}
+				}
+	
+				var elements = document.getElementsByName('units');
+				if (elements) {
+					for (var i = 0; i < elements.length; i++) {
+						convertUnits(elements[i], units);
+					}
+				}
+			}
+		}
+	</script><title>Design Rule Verification Report</title>
+</head>
+<body onload=""><img ALT="Altium" src="
+			file://D:\Users\Public\Documents\Altium\AD21\Templates\AD_logo.png
+		"><h1>Design Rule Verification Report</h1>
+<table class="header_holder">
+<td class="column1">
+<table class="front_matter">
+<tr class="front_matter">
+<td class="front_matter_column1">Date:</td>
+<td class="front_matter_column2"></td>
+<td class="front_matter_column3">7/19/2022</td>
+</tr>
+<tr class="front_matter">
+<td class="front_matter_column1">Time:</td>
+<td class="front_matter_column2"></td>
+<td class="front_matter_column3">12:21:13 AM</td>
+</tr>
+<tr class="front_matter">
+<td class="front_matter_column1">Elapsed Time:</td>
+<td class="front_matter_column2"></td>
+<td class="front_matter_column3">00:00:02</td>
+</tr>
+<tr class="front_matter">
+<td class="front_matter_column1">Filename:</td>
+<td class="front_matter_column2"></td>
+<td class="front_matter_column3"><a href="file:///C:\Users\Dante Sivo\Documents\GitHub\Fletcher-v2.0-\Main Board\PCB1.PcbDoc" class="file"><acronym title="C:\Users\Dante Sivo\Documents\GitHub\Fletcher-v2.0-\Main Board\PCB1.PcbDoc">C:\Users\Dante Sivo\Documents\GitHub\Fletcher-v2.0-\Main Board\PCB1.PcbDoc</acronym></a></td>
+</tr>
+</table>
+</td>
+<td class="column2">
+<table class="DRC_summary_header">
+<tr>
+<td class="DRC_summary_header_col1">Warnings:</td>
+<td class="DRC_summary_header_col2"></td>
+<td class="DRC_summary_header_col3">0</td></tr>
+<tr>
+<td class="DRC_summary_header_col1">Rule Violations:</td>
+<td class="DRC_summary_header_col2"></td>
+<td class="DRC_summary_header_col3" style="color : red">31</td></tr>
+</table>
+</td>
+</table><a name="IDMP0FCFTLEYCRD0MBPHLJ1JPWFHKUNCDWEMQ5ZVPFLVT3MMT1YPBJ"><h2>Summary</h2></a><table>
+<tr>
+<th class="column1">Warnings</th>
+<th class="column2">Count</th>
+</tr>
+<tr>
+<td style="font-weight : bold; text-align : right" class="column1">Total</td>
+<td style="font-weight : bold" class="column2">0</td>
+</tr>
+</table><br><table>
+<tr>
+<th class="column1">Rule Violations</th>
+<th class="column2">Count</th>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="#IDXS3O12BHHLGCHDXPTDOMEDSBSI451BMGRPIYWJDBW3KTNQYE5K0D">Clearance Constraint (Gap=0.102mm) (All),(All)</a></td>
+<td class="column2">0</td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="#IDYXV35IRXSTU0HC4FHJSZ421KPG1RCCRILOJSHZOC3YM2WMBHILEC">Short-Circuit Constraint (Allowed=No) (All),(All)</a></td>
+<td class="column2">0</td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="#ID0CRTBTON2PKUM0JEBKAUDW3PKKQBAIDIM4GZURIRGU4WANSZQDQI">Un-Routed Net Constraint ( (All) )</a></td>
+<td class="column2">0</td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="#IDJKLEWKCVJHA0LT35GCOYIU42HIQLVIFHOOMX4YF44GE0UEF5XPFJ">Modified Polygon (Allow modified: No), (Allow shelved: No)</a></td>
+<td class="column2">0</td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="#IDVU4XYIH50UZIHBFDA0VIOLMLRFTQAAKHQHR5XIF3U1YVBJUK0CWL">Width Constraint (Min=0.359mm) (Max=0.359mm) (Preferred=0.353mm) (InNetClass('RF'))</a></td>
+<td class="column2">0</td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="#ID2DBGARVIRR0BCNCC3IYZLTKBYHJFDPGP5PDAZKNIIJQJ0CKZSNVM">Width Constraint (Min=0.102mm) (Max=1816.048mm) (Preferred=0.102mm) (All)</a></td>
+<td class="column2">0</td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="#IDFSXDJ5R355MNHT4NRWG52YXDTIEVYMY1Y4GDL3IOBDQTVOCF0WKG">Routing Layers(All)</a></td>
+<td class="column2">0</td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="#IDSI1MB5X3ENQQIMAXLAJEQHROVJYWHW544X42GGMO2MU1GXJTJ4L">Routing Via (MinHoleWidth=0.2mm) (MaxHoleWidth=6.3mm) (PreferredHoleWidth=0.2mm) (MinWidth=0.45mm) (MaxWidth=6.55mm) (PreferedWidth=0.45mm) (All)</a></td>
+<td class="column2">0</td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="#IDPXIA3MQCB0IFPFYXMY3MZKAAED0WGVUDX1U5NLI0D0TFJTYLILQE">Differential Pairs Uncoupled Length using the Gap Constraints (Min=0.127mm) (Max=0.127mm) (Prefered=0.127mm)  and Width Constraints (Min=0.237mm) (Max=0.237mm) (Prefered=0.231mm) (InDifferentialPairClass('All Differential Pairs'))</a></td>
+<td class="column2">0</td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="#IDZKHQ2YPRX3PCKVJTDIPV2ROJEI4EDTJXAB22DBGEUNS150GYFSPC">Power Plane Connect Rule(Direct Connect )(Expansion=0.508mm) (Conductor Width=0.254mm) (Air Gap=0.254mm) (Entries=4) (InPadClass('PowerPads'))</a></td>
+<td class="column2">0</td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="#IDZSWREPJKUSR02V1YX04BFGRIPKJMKCQOPP5IJK0A34P3LLE3IY">Power Plane Connect Rule(Relief Connect )(Expansion=0.3mm) (Conductor Width=0.102mm) (Air Gap=0.102mm) (Entries=4) (All)</a></td>
+<td class="column2">0</td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="#IDRHLXNC3AJLOOHC3PMBIVVAL0OPYOKPK3X2TBJ2IBOPE5PUZA1HTJ">Minimum Annular Ring (Minimum=0.076mm) (All)</a></td>
+<td class="column2">11</td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="#IDZHJDB35J23G4DWRNPN5EQOIPDEM5R3WNX1AP33BCUJN4WGRO5I2K">Hole Size Constraint (Min=0.2mm) (Max=6.3mm) (All)</a></td>
+<td class="column2">0</td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="#IDOPFGBTV1VZVPCOOCQOJK1E4E55JKNAAS5YCM4C02YWQBKBXGD0K">Pads and Vias to follow the Drill pairs settings</a></td>
+<td class="column2">0</td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="#IDXISYNWOWKSHWHDSHCKTBNDSI4NQYPMTRFPVBISBXAE5V3EUME4JB">Hole To Hole Clearance (Gap=0.25mm) (All),(All)</a></td>
+<td class="column2">0</td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="#IDISKHBI1UIFSGPUNZENHG4IMXDKESFIZRQSAVCZO3ZEPCJ12VIK2P">Minimum Solder Mask Sliver (Gap=0mm) (All),(All)</a></td>
+<td class="column2">0</td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="#ID0BPKNUVL0ADQOTHWG3JONGA30JBQCOJWD4JLPVK3R0MAQSJEZRDK">Silk To Solder Mask (Clearance=0.102mm) (IsPad),(All)</a></td>
+<td class="column2">16</td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="#IDEY0E0NKRSPFMLKXL5CDPQGW1KGTDELJMF53IKOPLEED0SNUVYXQL">Silk to Silk (Clearance=0mm) (All),(All)</a></td>
+<td class="column2">0</td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="#ID2AEYB210EA5SB0MYQPUZRWJ3LCA05OOJGNYVDNBXYBSF3BGFAPJI">Net Antennae (Tolerance=0mm) (All)</a></td>
+<td class="column2">0</td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="#IDRKPUO54PLY4DLRMQ0GPUXWD03FDAGOKL1Y3R0EF2B1MR5GL0VSSC">Board Clearance Constraint (Gap=0mm) (All)</a></td>
+<td class="column2">4</td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="#ID3KNUXF0AKXOAJ1NXWGEWQAPMIKLJFNMK3HWPGRLYIZ442JMTDLHO">Component Clearance Constraint ( Horizontal Gap = 0.102mm, Vertical Gap = 0.102mm ) (All),(All) </a></td>
+<td class="column2">0</td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="#ID4TSU3ZGJLSE2KC4C4EDX01CNUCLJNPCD4J0CKPELRB4CTTOEEB3P">Height Constraint (Min=0mm) (Max=1816.048mm) (Prefered=12.7mm) (All)</a></td>
+<td class="column2">0</td>
+</tr>
+<tr>
+<td style="font-weight : bold; text-align : right" class="column1">Total</td>
+<td style="font-weight : bold" class="column2">31</td>
+</tr>
+</table><br><a name="IDRHLXNC3AJLOOHC3PMBIVVAL0OPYOKPK3X2TBJ2IBOPE5PUZA1HTJ"><table>
+<tr>
+<th style="text-align : left" colspan="1" class="rule">Minimum Annular Ring (Minimum=0.076mm) (All)</th>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\Dante Sivo\Documents\GitHub\Fletcher-v2.0-\Main Board\PCB1.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=8432.82mil|Location2.X=8437.07mil|Location1.Y=6314.922mil|Location2.Y=6319.172mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\Dante Sivo\Documents\GitHub\Fletcher-v2.0-\Main Board\PCB1.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=8432.82mil|Location2.X=8437.07mil|Location1.Y=6314.922mil|Location2.Y=6319.172mil|Absolute=True">Minimum Annular Ring: (0.05mm &lt; 0.076mm) Pad U1-39(24.662mm,47.882mm) on Multi-Layer (Annular Ring=0.05mm) On (Top Layer)</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\Dante Sivo\Documents\GitHub\Fletcher-v2.0-\Main Board\PCB1.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=8432.82mil|Location2.X=8437.07mil|Location1.Y=6370.04mil|Location2.Y=6374.29mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\Dante Sivo\Documents\GitHub\Fletcher-v2.0-\Main Board\PCB1.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=8432.82mil|Location2.X=8437.07mil|Location1.Y=6370.04mil|Location2.Y=6374.29mil|Absolute=True">Minimum Annular Ring: (0.05mm &lt; 0.076mm) Pad U1-39(24.662mm,49.282mm) on Multi-Layer (Annular Ring=0.05mm) On (Top Layer)</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\Dante Sivo\Documents\GitHub\Fletcher-v2.0-\Main Board\PCB1.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=8459.946mil|Location2.X=8464.196mil|Location1.Y=6287.796mil|Location2.Y=6292.046mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\Dante Sivo\Documents\GitHub\Fletcher-v2.0-\Main Board\PCB1.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=8459.946mil|Location2.X=8464.196mil|Location1.Y=6287.796mil|Location2.Y=6292.046mil|Absolute=True">Minimum Annular Ring: (0.05mm &lt; 0.076mm) Pad U1-39(25.351mm,47.193mm) on Multi-Layer (Annular Ring=0.05mm) On (Top Layer)</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\Dante Sivo\Documents\GitHub\Fletcher-v2.0-\Main Board\PCB1.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=8459.946mil|Location2.X=8464.196mil|Location1.Y=6342.914mil|Location2.Y=6347.164mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\Dante Sivo\Documents\GitHub\Fletcher-v2.0-\Main Board\PCB1.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=8459.946mil|Location2.X=8464.196mil|Location1.Y=6342.914mil|Location2.Y=6347.164mil|Absolute=True">Minimum Annular Ring: (0.05mm &lt; 0.076mm) Pad U1-39(25.351mm,48.593mm) on Multi-Layer (Annular Ring=0.05mm) On (Top Layer)</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\Dante Sivo\Documents\GitHub\Fletcher-v2.0-\Main Board\PCB1.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=8459.946mil|Location2.X=8464.196mil|Location1.Y=6398.032mil|Location2.Y=6402.282mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\Dante Sivo\Documents\GitHub\Fletcher-v2.0-\Main Board\PCB1.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=8459.946mil|Location2.X=8464.196mil|Location1.Y=6398.032mil|Location2.Y=6402.282mil|Absolute=True">Minimum Annular Ring: (0.05mm &lt; 0.076mm) Pad U1-39(25.351mm,49.993mm) on Multi-Layer (Annular Ring=0.05mm) On (Top Layer)</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\Dante Sivo\Documents\GitHub\Fletcher-v2.0-\Main Board\PCB1.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=8487.938mil|Location2.X=8492.188mil|Location1.Y=6370.04mil|Location2.Y=6374.29mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\Dante Sivo\Documents\GitHub\Fletcher-v2.0-\Main Board\PCB1.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=8487.938mil|Location2.X=8492.188mil|Location1.Y=6370.04mil|Location2.Y=6374.29mil|Absolute=True">Minimum Annular Ring: (0.05mm &lt; 0.076mm) Pad U1-39(26.062mm,49.282mm) on Multi-Layer (Annular Ring=0.05mm) On (Top Layer)</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\Dante Sivo\Documents\GitHub\Fletcher-v2.0-\Main Board\PCB1.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=8515.064mil|Location2.X=8519.314mil|Location1.Y=6287.796mil|Location2.Y=6292.046mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\Dante Sivo\Documents\GitHub\Fletcher-v2.0-\Main Board\PCB1.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=8515.064mil|Location2.X=8519.314mil|Location1.Y=6287.796mil|Location2.Y=6292.046mil|Absolute=True">Minimum Annular Ring: (0.05mm &lt; 0.076mm) Pad U1-39(26.751mm,47.193mm) on Multi-Layer (Annular Ring=0.05mm) On (Top Layer)</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\Dante Sivo\Documents\GitHub\Fletcher-v2.0-\Main Board\PCB1.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=8515.064mil|Location2.X=8519.314mil|Location1.Y=6342.914mil|Location2.Y=6347.164mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\Dante Sivo\Documents\GitHub\Fletcher-v2.0-\Main Board\PCB1.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=8515.064mil|Location2.X=8519.314mil|Location1.Y=6342.914mil|Location2.Y=6347.164mil|Absolute=True">Minimum Annular Ring: (0.05mm &lt; 0.076mm) Pad U1-39(26.751mm,48.593mm) on Multi-Layer (Annular Ring=0.05mm) On (Top Layer)</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\Dante Sivo\Documents\GitHub\Fletcher-v2.0-\Main Board\PCB1.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=8515.064mil|Location2.X=8519.314mil|Location1.Y=6398.032mil|Location2.Y=6402.282mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\Dante Sivo\Documents\GitHub\Fletcher-v2.0-\Main Board\PCB1.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=8515.064mil|Location2.X=8519.314mil|Location1.Y=6398.032mil|Location2.Y=6402.282mil|Absolute=True">Minimum Annular Ring: (0.05mm &lt; 0.076mm) Pad U1-39(26.751mm,49.993mm) on Multi-Layer (Annular Ring=0.05mm) On (Top Layer)</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\Dante Sivo\Documents\GitHub\Fletcher-v2.0-\Main Board\PCB1.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=8543.056mil|Location2.X=8547.306mil|Location1.Y=6314.922mil|Location2.Y=6319.172mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\Dante Sivo\Documents\GitHub\Fletcher-v2.0-\Main Board\PCB1.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=8543.056mil|Location2.X=8547.306mil|Location1.Y=6314.922mil|Location2.Y=6319.172mil|Absolute=True">Minimum Annular Ring: (0.05mm &lt; 0.076mm) Pad U1-39(27.462mm,47.882mm) on Multi-Layer (Annular Ring=0.05mm) On (Top Layer)</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\Dante Sivo\Documents\GitHub\Fletcher-v2.0-\Main Board\PCB1.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=8543.056mil|Location2.X=8547.306mil|Location1.Y=6370.04mil|Location2.Y=6374.29mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\Dante Sivo\Documents\GitHub\Fletcher-v2.0-\Main Board\PCB1.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=8543.056mil|Location2.X=8547.306mil|Location1.Y=6370.04mil|Location2.Y=6374.29mil|Absolute=True">Minimum Annular Ring: (0.05mm &lt; 0.076mm) Pad U1-39(27.462mm,49.282mm) on Multi-Layer (Annular Ring=0.05mm) On (Top Layer)</acronym></a><br></td>
+</tr>
+</table></a><hr color="#EEEEEE"><a href="#top" style="font-size: 0.9em">Back to top</a><br><br><a name="ID0BPKNUVL0ADQOTHWG3JONGA30JBQCOJWD4JLPVK3R0MAQSJEZRDK"><table>
+<tr>
+<th style="text-align : left" colspan="1" class="rule">Silk To Solder Mask (Clearance=0.102mm) (IsPad),(All)</th>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\Dante Sivo\Documents\GitHub\Fletcher-v2.0-\Main Board\PCB1.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=7647.364mil|Location2.X=7651.031mil|Location1.Y=7429.222mil|Location2.Y=7432.889mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\Dante Sivo\Documents\GitHub\Fletcher-v2.0-\Main Board\PCB1.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=7647.364mil|Location2.X=7651.031mil|Location1.Y=7429.222mil|Location2.Y=7432.889mil|Absolute=True">Silk To Solder Mask Clearance Constraint: (Collision &lt; 0.102mm) Between Pad C20-1(6.604mm,74.803mm) on Top Layer And Track (4.704mm,76.303mm)(4.704mm,79.303mm) on Top Overlay [Top Overlay] to [Top Solder] clearance [0mm]</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\Dante Sivo\Documents\GitHub\Fletcher-v2.0-\Main Board\PCB1.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=7796.97mil|Location2.X=7800.637mil|Location1.Y=7429.222mil|Location2.Y=7432.889mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\Dante Sivo\Documents\GitHub\Fletcher-v2.0-\Main Board\PCB1.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=7796.97mil|Location2.X=7800.637mil|Location1.Y=7429.222mil|Location2.Y=7432.889mil|Absolute=True">Silk To Solder Mask Clearance Constraint: (Collision &lt; 0.102mm) Between Pad C20-1(6.604mm,74.803mm) on Top Layer And Track (8.504mm,76.303mm)(8.504mm,79.303mm) on Top Overlay [Top Overlay] to [Top Solder] clearance [0mm]</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\Dante Sivo\Documents\GitHub\Fletcher-v2.0-\Main Board\PCB1.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=7647.364mil|Location2.X=7651.031mil|Location1.Y=7527.648mil|Location2.Y=7531.314mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\Dante Sivo\Documents\GitHub\Fletcher-v2.0-\Main Board\PCB1.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=7647.364mil|Location2.X=7651.031mil|Location1.Y=7527.648mil|Location2.Y=7531.314mil|Absolute=True">Silk To Solder Mask Clearance Constraint: (Collision &lt; 0.102mm) Between Pad C20-2(6.604mm,80.803mm) on Top Layer And Track (4.704mm,76.303mm)(4.704mm,79.303mm) on Top Overlay [Top Overlay] to [Top Solder] clearance [0mm]</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\Dante Sivo\Documents\GitHub\Fletcher-v2.0-\Main Board\PCB1.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=7796.97mil|Location2.X=7800.637mil|Location1.Y=7527.648mil|Location2.Y=7531.314mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\Dante Sivo\Documents\GitHub\Fletcher-v2.0-\Main Board\PCB1.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=7796.97mil|Location2.X=7800.637mil|Location1.Y=7527.648mil|Location2.Y=7531.314mil|Absolute=True">Silk To Solder Mask Clearance Constraint: (Collision &lt; 0.102mm) Between Pad C20-2(6.604mm,80.803mm) on Top Layer And Track (8.504mm,76.303mm)(8.504mm,79.303mm) on Top Overlay [Top Overlay] to [Top Solder] clearance [0mm]</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\Dante Sivo\Documents\GitHub\Fletcher-v2.0-\Main Board\PCB1.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=8604.431mil|Location2.X=8608.098mil|Location1.Y=4962.667mil|Location2.Y=4966.334mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\Dante Sivo\Documents\GitHub\Fletcher-v2.0-\Main Board\PCB1.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=8604.431mil|Location2.X=8608.098mil|Location1.Y=4962.667mil|Location2.Y=4966.334mil|Absolute=True">Silk To Solder Mask Clearance Constraint: (Collision &lt; 0.102mm) Between Pad F1-1(28.067mm,14.478mm) on Top Layer And Track (29.014mm,13.652mm)(29.787mm,13.652mm) on Top Overlay [Top Overlay] to [Top Solder] clearance [0mm]</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\Dante Sivo\Documents\GitHub\Fletcher-v2.0-\Main Board\PCB1.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=8604.431mil|Location2.X=8608.098mil|Location1.Y=5027.667mil|Location2.Y=5031.334mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\Dante Sivo\Documents\GitHub\Fletcher-v2.0-\Main Board\PCB1.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=8604.431mil|Location2.X=8608.098mil|Location1.Y=5027.667mil|Location2.Y=5031.334mil|Absolute=True">Silk To Solder Mask Clearance Constraint: (Collision &lt; 0.102mm) Between Pad F1-1(28.067mm,14.478mm) on Top Layer And Track (29.014mm,15.303mm)(29.787mm,15.303mm) on Top Overlay [Top Overlay] to [Top Solder] clearance [0mm]</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\Dante Sivo\Documents\GitHub\Fletcher-v2.0-\Main Board\PCB1.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=8634.903mil|Location2.X=8638.57mil|Location1.Y=4962.667mil|Location2.Y=4966.334mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\Dante Sivo\Documents\GitHub\Fletcher-v2.0-\Main Board\PCB1.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=8634.903mil|Location2.X=8638.57mil|Location1.Y=4962.667mil|Location2.Y=4966.334mil|Absolute=True">Silk To Solder Mask Clearance Constraint: (Collision &lt; 0.102mm) Between Pad F1-2(30.734mm,14.478mm) on Top Layer And Track (29.014mm,13.652mm)(29.787mm,13.652mm) on Top Overlay [Top Overlay] to [Top Solder] clearance [0mm]</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\Dante Sivo\Documents\GitHub\Fletcher-v2.0-\Main Board\PCB1.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=8634.903mil|Location2.X=8638.57mil|Location1.Y=5027.667mil|Location2.Y=5031.334mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\Dante Sivo\Documents\GitHub\Fletcher-v2.0-\Main Board\PCB1.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=8634.903mil|Location2.X=8638.57mil|Location1.Y=5027.667mil|Location2.Y=5031.334mil|Absolute=True">Silk To Solder Mask Clearance Constraint: (Collision &lt; 0.102mm) Between Pad F1-2(30.734mm,14.478mm) on Top Layer And Track (29.014mm,15.303mm)(29.787mm,15.303mm) on Top Overlay [Top Overlay] to [Top Solder] clearance [0mm]</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\Dante Sivo\Documents\GitHub\Fletcher-v2.0-\Main Board\PCB1.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=8289.903mil|Location2.X=8293.57mil|Location1.Y=7467.667mil|Location2.Y=7471.334mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\Dante Sivo\Documents\GitHub\Fletcher-v2.0-\Main Board\PCB1.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=8289.903mil|Location2.X=8293.57mil|Location1.Y=7467.667mil|Location2.Y=7471.334mil|Absolute=True">Silk To Solder Mask Clearance Constraint: (Collision &lt; 0.102mm) Between Pad F2-1(21.971mm,78.105mm) on Top Layer And Track (20.251mm,77.279mm)(21.024mm,77.279mm) on Top Overlay [Top Overlay] to [Top Solder] clearance [0mm]</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\Dante Sivo\Documents\GitHub\Fletcher-v2.0-\Main Board\PCB1.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=8289.903mil|Location2.X=8293.57mil|Location1.Y=7532.667mil|Location2.Y=7536.334mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\Dante Sivo\Documents\GitHub\Fletcher-v2.0-\Main Board\PCB1.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=8289.903mil|Location2.X=8293.57mil|Location1.Y=7532.667mil|Location2.Y=7536.334mil|Absolute=True">Silk To Solder Mask Clearance Constraint: (Collision &lt; 0.102mm) Between Pad F2-1(21.971mm,78.105mm) on Top Layer And Track (20.251mm,78.93mm)(21.024mm,78.93mm) on Top Overlay [Top Overlay] to [Top Solder] clearance [0mm]</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\Dante Sivo\Documents\GitHub\Fletcher-v2.0-\Main Board\PCB1.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=8184.466mil|Location2.X=8188.133mil|Location1.Y=7476.04mil|Location2.Y=7479.706mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\Dante Sivo\Documents\GitHub\Fletcher-v2.0-\Main Board\PCB1.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=8184.466mil|Location2.X=8188.133mil|Location1.Y=7476.04mil|Location2.Y=7479.706mil|Absolute=True">Silk To Solder Mask Clearance Constraint: (Collision &lt; 0.102mm) Between Pad F2-2(19.304mm,78.105mm) on Top Layer And Text "F2" (16.654mm,77.492mm) on Top Overlay [Top Overlay] to [Top Solder] clearance [0mm]</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\Dante Sivo\Documents\GitHub\Fletcher-v2.0-\Main Board\PCB1.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=8259.431mil|Location2.X=8263.098mil|Location1.Y=7467.667mil|Location2.Y=7471.334mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\Dante Sivo\Documents\GitHub\Fletcher-v2.0-\Main Board\PCB1.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=8259.431mil|Location2.X=8263.098mil|Location1.Y=7467.667mil|Location2.Y=7471.334mil|Absolute=True">Silk To Solder Mask Clearance Constraint: (Collision &lt; 0.102mm) Between Pad F2-2(19.304mm,78.105mm) on Top Layer And Track (20.251mm,77.279mm)(21.024mm,77.279mm) on Top Overlay [Top Overlay] to [Top Solder] clearance [0mm]</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\Dante Sivo\Documents\GitHub\Fletcher-v2.0-\Main Board\PCB1.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=8259.431mil|Location2.X=8263.098mil|Location1.Y=7532.667mil|Location2.Y=7536.334mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\Dante Sivo\Documents\GitHub\Fletcher-v2.0-\Main Board\PCB1.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=8259.431mil|Location2.X=8263.098mil|Location1.Y=7532.667mil|Location2.Y=7536.334mil|Absolute=True">Silk To Solder Mask Clearance Constraint: (Collision &lt; 0.102mm) Between Pad F2-2(19.304mm,78.105mm) on Top Layer And Track (20.251mm,78.93mm)(21.024mm,78.93mm) on Top Overlay [Top Overlay] to [Top Solder] clearance [0mm]</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\Dante Sivo\Documents\GitHub\Fletcher-v2.0-\Main Board\PCB1.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=9047.746mil|Location2.X=9052.996mil|Location1.Y=7938.981mil|Location2.Y=7944.231mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\Dante Sivo\Documents\GitHub\Fletcher-v2.0-\Main Board\PCB1.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=9047.746mil|Location2.X=9052.996mil|Location1.Y=7938.981mil|Location2.Y=7944.231mil|Absolute=True">Silk To Solder Mask Clearance Constraint: (0.004mm &lt; 0.102mm) Between Pad J2-S4(40.941mm,88.544mm) on Multi-Layer And Text "J2" (38.524mm,89.281mm) on Top Overlay [Top Overlay] to [Top Solder] clearance [0.004mm]</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\Dante Sivo\Documents\GitHub\Fletcher-v2.0-\Main Board\PCB1.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=8195.909mil|Location2.X=8205.748mil|Location1.Y=4590.173mil|Location2.Y=4597.03mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\Dante Sivo\Documents\GitHub\Fletcher-v2.0-\Main Board\PCB1.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=8195.909mil|Location2.X=8205.748mil|Location1.Y=4590.173mil|Location2.Y=4597.03mil|Absolute=True">Silk To Solder Mask Clearance Constraint: (0.043mm &lt; 0.102mm) Between Pad J4-6(18.868mm,3.286mm) on Multi-Layer And Track (18.618mm,4.286mm)(18.618mm,6.136mm) on Top Overlay [Top Overlay] to [Top Solder] clearance [0.043mm]</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\Dante Sivo\Documents\GitHub\Fletcher-v2.0-\Main Board\PCB1.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=8488.099mil|Location2.X=8497.98mil|Location1.Y=4588.654mil|Location2.Y=4595.424mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\Dante Sivo\Documents\GitHub\Fletcher-v2.0-\Main Board\PCB1.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=8488.099mil|Location2.X=8497.98mil|Location1.Y=4588.654mil|Location2.Y=4595.424mil|Absolute=True">Silk To Solder Mask Clearance Constraint: (0.043mm &lt; 0.102mm) Between Pad J4-6(25.868mm,3.286mm) on Multi-Layer And Track (26.118mm,4.286mm)(26.118mm,6.136mm) on Top Overlay [Top Overlay] to [Top Solder] clearance [0.043mm]</acronym></a><br></td>
+</tr>
+</table></a><hr color="#EEEEEE"><a href="#top" style="font-size: 0.9em">Back to top</a><br><br><a name="IDRKPUO54PLY4DLRMQ0GPUXWD03FDAGOKL1Y3R0EF2B1MR5GL0VSSC"><table>
+<tr>
+<th style="text-align : left" colspan="1" class="rule">Board Clearance Constraint (Gap=0mm) (All)</th>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\Dante Sivo\Documents\GitHub\Fletcher-v2.0-\Main Board\PCB1.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=8171.545mil|Location2.X=8177.794mil|Location1.Y=6821.181mil|Location2.Y=6827.43mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\Dante Sivo\Documents\GitHub\Fletcher-v2.0-\Main Board\PCB1.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=8171.545mil|Location2.X=8177.794mil|Location1.Y=6821.181mil|Location2.Y=6827.43mil|Absolute=True">Board Outline Clearance(Cutout Edge): (Collision &lt; 0.2mm) Between Board Cutout (Multi-Layer)Region (0 hole(s)) Multi-Layer And Track (18.051mm,57.507mm)(18.051mm,64.007mm) on Top Overlay </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\Dante Sivo\Documents\GitHub\Fletcher-v2.0-\Main Board\PCB1.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=8525.875mil|Location2.X=8532.125mil|Location1.Y=6943.844mil|Location2.Y=6950.093mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\Dante Sivo\Documents\GitHub\Fletcher-v2.0-\Main Board\PCB1.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=8525.875mil|Location2.X=8532.125mil|Location1.Y=6943.844mil|Location2.Y=6950.093mil|Absolute=True">Board Outline Clearance(Cutout Edge): (Collision &lt; 0.2mm) Between Board Cutout (Multi-Layer)Region (0 hole(s)) Multi-Layer And Track (18.051mm,64.007mm)(36.051mm,64.007mm) on Top Overlay </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\Dante Sivo\Documents\GitHub\Fletcher-v2.0-\Main Board\PCB1.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=8880.206mil|Location2.X=8886.455mil|Location1.Y=6821.181mil|Location2.Y=6827.43mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\Dante Sivo\Documents\GitHub\Fletcher-v2.0-\Main Board\PCB1.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=8880.206mil|Location2.X=8886.455mil|Location1.Y=6821.181mil|Location2.Y=6827.43mil|Absolute=True">Board Outline Clearance(Cutout Edge): (Collision &lt; 0.2mm) Between Board Cutout (Multi-Layer)Region (0 hole(s)) Multi-Layer And Track (36.051mm,57.507mm)(36.051mm,64.007mm) on Top Overlay </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\Dante Sivo\Documents\GitHub\Fletcher-v2.0-\Main Board\PCB1.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=8360.876mil|Location2.X=8367.125mil|Location1.Y=8085.301mil|Location2.Y=8091.55mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\Dante Sivo\Documents\GitHub\Fletcher-v2.0-\Main Board\PCB1.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=8360.876mil|Location2.X=8367.125mil|Location1.Y=8085.301mil|Location2.Y=8091.55mil|Absolute=True">Board Outline Clearance(Outline Edge): (Collision &lt; 0.2mm) Between Board Edge And Text "FLETCHER v2.0
+SRAD Flight Computer
+
+Dante Sivo - July 2022" (38.227mm,72.136mm) on Bottom Overlay </acronym></a><br></td>
+</tr>
+</table></a><hr color="#EEEEEE"><a href="#top" style="font-size: 0.9em">Back to top</a><br><br></body>
+</html>

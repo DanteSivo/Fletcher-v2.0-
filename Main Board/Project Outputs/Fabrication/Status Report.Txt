@@ -1,0 +1,15 @@
+Project Outputs Generation Report
+---------------------------------
+Start Output Generation At 10:31:37 PM On 7/18/2022
+
+Output: Generates pick and place files
+Type  : Pick Place
+From  : Variant [DNP] of PCB Document [PCB1.PcbDoc]
+   Generated File[_PCB PN_.txt]
+   Generated File[_PCB PN_.csv]
+
+
+Files Generated   : 2
+Documents Printed : 0
+
+Finished Output Generation At 10:31:38 PM On 7/18/2022

@@ -1,0 +1,20 @@
+#Layer_Color=16711935
+#
+#Feature symbol names
+#
+
+#
+#Feature attribute names
+#
+
+#
+#Layer features
+#
+S P 0
+OB 1.4193302 2.2719365 I
+OS 0.7106688 2.2719365
+OS 0.7106688 2.519968
+OS 1.4193302 2.519968
+OS 1.4193302 2.2719365
+OE
+SE
