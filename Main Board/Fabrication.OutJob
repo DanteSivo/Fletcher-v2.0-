@@ -117,24 +117,24 @@ OutputName2=Gerber Files
 OutputCategory2=Fabrication
 OutputDocumentPath2=
 OutputVariantName2=
-OutputEnabled2=0
+OutputEnabled2=1
 OutputEnabled2_OutputMedium1=0
 OutputEnabled2_OutputMedium2=0
 OutputEnabled2_OutputMedium3=0
-OutputEnabled2_OutputMedium4=0
+OutputEnabled2_OutputMedium4=2
 OutputDefault2=0
 Configuration2_Name1=OutputConfigurationParameter1
-Configuration2_Item1=AddToAllPlots.Set=SerializeLayerHash.Version~2,ClassName~TLayerToBoolean,16908289~1,16908305~1|CentrePlots=False|DrillDrawingSymbol=GraphicsSymbol|DrillDrawingSymbolSize=500000|EmbeddedApertures=True|FilmBorderSize=10000000|FilmXSize=500000000|FilmYSize=400000000|FlashAllFills=False|FlashPadShapes=True|G54OnApertureChange=False|GenerateDRCRulesFile=True|GenerateReliefShapes=True|GerberUnit=Imperial|IncludeUnconnectedMidLayerPads=False|LeadingAndTrailingZeroesMode=SuppressLeadingZeroes|MaxApertureSize=2500000|MinusApertureTolerance=50|Mirror.Set=SerializeLayerHash.Version~2,ClassName~TLayerToBoolean|MirrorDrillDrawingPlots=False|MirrorDrillGuidePlots=False|NumberOfDecimals=5|OptimizeChangeLocationCommands=True|OriginPosition=Absolute|Panelize=False|Plot.Set=SerializeLayerHash.Version~2,ClassName~TLayerToBoolean,16973830~1,16973832~1,16973834~1,16777217~1,16842753~1,16842754~1,16842755~1,16842756~1,16842757~1,16842758~1,16842759~1,16842760~1,16842761~1,16842762~1,16842763~1,16842764~1,16842765~1,16842766~1,16842767~1,16842768~1,16777218~1,16777219~1,16777220~1,16777221~1,16777222~1,16777223~1,16777224~1,16777225~1,16777226~1,16777227~1,16777228~1,16777229~1,16777230~1,16777231~1,16777232~1,16777233~1,16777234~1,16777235~1,16777236~1,16777237~1,16777238~1,16777239~1,16777240~1,16777241~1,16777242~1,16777243~1,16777244~1,16777245~1,16777246~1,16777247~1,16842751~1,16973835~1,16973833~1,16973831~1,16973848~1,16973849~1|PlotPositivePlaneLayers=False|PlotUsedDrillDrawingLayerPairs=True|PlotUsedDrillGuideLayerPairs=False|PlusApertureTolerance=50|Record=GerberView|SoftwareArcs=False|Sorted=False|DocumentPath=C:\Users\Dante Sivo\Documents\GitHub\Fletcher-v2.0-\Altium\PCB1.PcbDoc
+Configuration2_Item1=AddToAllLayerClasses.Set= |AddToAllPlots.Set=SerializeLayerHash.Version~2,ClassName~TPlotLayerStateArray,16908289~1,16908305~1|CentrePlots=False|DrillDrawingSymbol=GraphicsSymbol|DrillDrawingSymbolSize=200000|EmbeddedApertures=True|FilmBorderSize=10000000|FilmXSize=500000000|FilmYSize=400000000|FlashAllFills=False|FlashPadShapes=True|G54OnApertureChange=False|GenerateDRCRulesFile=True|GenerateDRCRulesFile=True|GenerateReliefShapes=True|GenerateReports=True|GerberUnit=Imperial|GerberUnit=Imperial|IncludeUnconnectedMidLayerPads=False|LayerClassesMirror.Set= |LayerClassesPlot.Set= |LeadingAndTrailingZeroesMode=SuppressLeadingZeroes|MaxApertureSize=2500000|MergePadAndRegion=False|MinusApertureTolerance=50|MinusApertureTolerance=50|Mirror.Set=SerializeLayerHash.Version~2,ClassName~TPlotLayerStateArray|MirrorDrillDrawingPlots=False|MirrorDrillGuidePlots=False|NoRegularPolygons=False|NumberOfDecimals=5|NumberOfDecimals=5|OptimizeChangeLocationCommands=True|OptimizeChangeLocationCommands=True|OriginPosition=Absolute|Panelize=False|Plot.Set=SerializeLayerHash.Version~2,ClassName~TPlotLayerStateArray,16973830~1,16973832~1,16973834~1,16777217~1,16777218~1,16777219~1,16842751~1,16973835~1,16973833~1,16973831~1,16973848~1,16973849~1|PlotPositivePlaneLayers=False|PlotUsedDrillDrawingLayerPairs=True|PlotUsedDrillGuideLayerPairs=False|PlusApertureTolerance=50|PlusApertureTolerance=50|Record=GerberView|SoftwareArcs=False|Sorted=False|Sorted=False|DocumentPath=C:\Users\Dante Sivo\Documents\GitHub\Fletcher-v2.0-\Main Board\PCB1.PcbDoc
 OutputType3=NC Drill
 OutputName3=NC Drill Files
 OutputCategory3=Fabrication
 OutputDocumentPath3=
 OutputVariantName3=
-OutputEnabled3=0
+OutputEnabled3=1
 OutputEnabled3_OutputMedium1=0
 OutputEnabled3_OutputMedium2=0
 OutputEnabled3_OutputMedium3=0
-OutputEnabled3_OutputMedium4=0
+OutputEnabled3_OutputMedium4=4
 OutputDefault3=0
 Configuration3_Name1=OutputConfigurationParameter1
 Configuration3_Item1=BoardEdgeRoutToolDia=2000000|GenerateBoardEdgeRout=False|GenerateDrilledSlotsG85=False|GenerateSeparatePlatedNonPlatedFiles=False|NumberOfDecimals=5|NumberOfUnits=2|OptimizeChangeLocationCommands=True|OriginPosition=Absolute|Record=DrillView|Units=Imperial|ZeroesMode=SuppressLeadingZeroes|DocumentPath=C:\Users\Dante Sivo\Documents\GitHub\Fletcher-v2.0-\Altium\PCB1.PcbDoc
@@ -242,12 +242,12 @@ OutputType8=BOM_PartType
 OutputName8=Bill of Materials
 OutputCategory8=Report
 OutputDocumentPath8=ActiveBOM.BomDoc
-OutputVariantName8=
-OutputEnabled8=0
+OutputVariantName8=DNP
+OutputEnabled8=1
 OutputEnabled8_OutputMedium1=0
 OutputEnabled8_OutputMedium2=2
 OutputEnabled8_OutputMedium3=0
-OutputEnabled8_OutputMedium4=0
+OutputEnabled8_OutputMedium4=3
 OutputDefault8=0
 PageOptions8=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=Letter|PaperIndex=1
 Configuration8_Name1=ColumnNameFormat
@@ -257,9 +257,15 @@ Configuration8_Item2=OpenExported=False|AddToProject=False|ReportBOMViolationsIn
 Configuration8_Name3=GroupOrder
 Configuration8_Item3=Comment=True|Footprint=True
 Configuration8_Name4=SortOrder
-Configuration8_Item4=Designator=Up|Comment=Up|Footprint=Up
+Configuration8_Item4=Comment=Down
 Configuration8_Name5=VisibleOrder
-Configuration8_Item5=Comment=120|Description=120|Designator=120|Footprint=120|LibRef=120|Quantity=120
+Configuration8_Item5=Comment=120|Description=120|Designator=120|Footprint=120|LibRef=120|Quantity=120|JLCPCB Part #=100
+Configuration8_Name6=VisibleOrder_Base
+Configuration8_Item6=Comment=120|Description=120|Designator=120|Footprint=120|LibRef=120|Quantity=120|JLCPCB Part #=100
+Configuration8_Name7=VisibleOrder_Consolidated
+Configuration8_Item7=Line #=100|Comment=100|Description=100|Designator=100|Quantity=100|Manufacturer 1=119|Manufacturer Part Number 1=186|Manufacturer Lifecycle 1=164|Supplier 1=92|Supplier Part Number 1=159|Supplier Unit Price 1=144|Supplier Subtotal 1=139
+Configuration8_Name8=VisibleOrder_Flat
+Configuration8_Item8=Line #=54|Comment=52|Description=82|Designator=80|Manufacturer 1=119|Manufacturer Part Number 1=186|Manufacturer Lifecycle 1=164|Supplier 1=92|Supplier Part Number 1=159|Supplier Unit Price 1=144|Supplier Subtotal 1=139
 OutputType9=Pick Place
 OutputName9=Generates pick and place files
 OutputCategory9=Assembly
